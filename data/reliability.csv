@@ -1,0 +1,32 @@
+reliability_id,measure_id,statistic,estimate,statistic_units,week,testing_week_type,n,se_reli,ci_level_reli,ci_low_reli,ci_high_reli
+ishikawa2012a_m01_r1,ishikawa2012a_m01,ICC,0.944,,,Reliability Testing,9,,95,0.901,0.949
+ishikawa2012a_m06_r1,ishikawa2012a_m06,ICC,0.887,,-1,Pre-Baseline,,,,,
+lindqvist2026a_m04_r1,lindqvist2026a_m04,ICC,0.924,,,Reliability Testing,9,,,,
+iversen2023a_m01_r1,iversen2023a_m01,ICC,0.982,,,Reliability Testing,,,,,
+abernathy2017a_m01_r1,abernathy2017a_m01,ICC,0.855,,,Reliability Testing,,,,,
+delacroix2022a_m02_r1,delacroix2022a_m02,ICC,0.948,,,Reliability Testing,20,,,,
+ishikawa2013a_m01_r1,ishikawa2013a_m01,CV,2.42,%,,Reliability Testing,12,,,,
+ishikawa2013a_m02_r1,ishikawa2013a_m02,ICC,0.97,,,Reliability Testing,,,,,
+varga2020a_m01_r1,varga2020a_m01,CV,1.96,%,,Reliability Testing,15,,,,
+varga2020a_m02_r1,varga2020a_m02,ICC,0.869,,-4,Pre-Baseline,,,,,
+ekberg2010a_m01_r1,ekberg2010a_m01,CV,2.5,%,,Reliability Testing,17,,,,
+yilmaz1999a_m04_r1,yilmaz1999a_m04,CV,1.19,%,,Reliability Testing,,,,,
+rosales2018a_m02_r1,rosales2018a_m02,CV,1.66,%,,Reliability Testing,,,,,
+rosales2018a_m05_r1,rosales2018a_m05,ICC,0.941,,,Reliability Testing,14,,95,0.918,0.954
+rosales2018a_m06_r1,rosales2018a_m06,ICC,0.864,,,Reliability Testing,,,,,
+lindqvist2010a_m02_r1,lindqvist2010a_m02,ICC,0.91,,,Reliability Testing,10,,95,0.876,0.92
+moreau2010a_m01_r1,moreau2010a_m01,ICC,0.887,,,Reliability Testing,13,,,,
+moreau2010a_m02_r1,moreau2010a_m02,ICC,0.968,,,Reliability Testing,,,,,
+gallardo2024a_m01_r1,gallardo2024a_m01,ICC,0.904,,,Reliability Testing,14,,,,
+gallardo2024a_m02_r1,gallardo2024a_m02,CV,4.56,%,,Reliability Testing,,,,,
+ekberg2013b_m01_r1,ekberg2013b_m01,ICC,0.973,,,Reliability Testing,12,,95,0.915,0.979
+ekberg2013b_m03_r1,ekberg2013b_m03,ICC,0.897,,,Reliability Testing,13,,95,0.856,0.906
+brennan2019a_m01_r1,brennan2019a_m01,ICC,0.872,,-1,Pre-Baseline,14,,,,
+haugen2014a_m01_r1,haugen2014a_m01,ICC,0.941,,,Reliability Testing,,,95,0.912,0.952
+haugen2014a_m02_r1,haugen2014a_m02,ICC,0.883,,-1,Pre-Baseline,,,95,0.828,0.889
+petrakis2018a_m04_r1,petrakis2018a_m04,CV,4.96,%,,Reliability Testing,12,,,,
+delacroix2014a_m01_r1,delacroix2014a_m01,ICC,0.92,,,Reliability Testing,,,95,0.897,0.928
+delacroix2014a_m02_r1,delacroix2014a_m02,ICC,0.967,,,Reliability Testing,12,,,,
+delacroix2014a_m03_r1,delacroix2014a_m03,ICC,0.956,,,Reliability Testing,,,,,
+rahimi2020a_m02_r1,rahimi2020a_m02,ICC,0.895,,,Reliability Testing,,,,,
+kaur2025a_m01_r1,kaur2025a_m01,ICC,0.97,,,Reliability Testing,9,,95,0.911,0.976

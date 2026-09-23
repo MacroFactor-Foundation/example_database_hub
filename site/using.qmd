@@ -1,0 +1,55 @@
+---
+title: "Use this hub"
+subtitle: "Pin a spoke project to a fixed version of the data, or contribute new data"
+---
+
+## Pin a spoke to a fixed version
+
+A spoke never reads the hub's live state. It declares the exact version it depends on in its own `config/data-manifest.yml`: an immutable tag or a commit SHA, never a branch name. It also records a SHA-256 checksum for every table it reads:
+
+```yaml
+# config/data-manifest.yml (in the spoke repository)
+external_sources:
+  example_database_hub:
+    repo: https://github.com/MacroFactor-Foundation/example_database_hub
+    ref: data-v1.0.0          # an immutable data tag, or a full commit SHA
+    ref_type: tag             # tag | commit
+    fetched_at: 2026-09-23
+    tables:
+      - path: data/study.csv
+        sha256: <checksum>
+      - path: data/arm.csv
+        sha256: <checksum>
+    notes: >
+      Why this version was chosen. Moving the pin is a deliberate,
+      documented change with a new note here.
+```
+
+The spoke's first pipeline target fetches the hub at exactly that ref and verifies the checksums before anything downstream runs. To compute the checksums from a checkout of the hub at the pinned ref:
+
+```bash
+git -C example_database_hub checkout data-v1.0.0
+sha256sum example_database_hub/data/*.csv
+```
+
+## Versions
+
+Dataset snapshots are tagged `data-vMAJOR.MINOR.PATCH` and recorded in the hub's `config/releases.yml`:
+
+- **MAJOR:** a breaking schema change (a column or table renamed, removed, or redefined).
+- **MINOR:** new studies or columns added without breaking existing ones.
+- **PATCH:** corrections to existing values.
+
+Tags are never moved or reused. Site deployments are tagged separately as `site-vMAJOR.MINOR.PATCH`.
+
+## Contribute data
+
+New extractions reach the hub through a branch and pull request against `main`. This is separate from whatever version a spoke is pinned to.
+
+1. Add rows to the relevant CSVs, assigning new stable IDs (never renumbering existing ones).
+2. Run `Rscript scripts/validate_data.R` locally.
+3. Open a pull request. The *Validate data* check runs the same validation, plus the test suite, and annotates any failing rows.
+
+## Cite
+
+See the repository's `CITATION.cff`. Cite the specific data tag you used.

@@ -1,0 +1,1820 @@
+arm_id,week,testing_week_type,training_week_type
+ishikawa2012a_hl,-1,Pre-Baseline,No Training
+ishikawa2012a_hl,0,Baseline,No Training
+ishikawa2012a_hl,1,No Testing,Training
+ishikawa2012a_hl,2,No Testing,Training
+ishikawa2012a_hl,3,No Testing,Training
+ishikawa2012a_hl,4,No Testing,Training
+ishikawa2012a_hl,5,No Testing,Training
+ishikawa2012a_hl,6,No Testing,Training
+ishikawa2012a_hl,7,No Testing,Training
+ishikawa2012a_hl,8,No Testing,Training
+ishikawa2012a_hl,9,No Testing,Training
+ishikawa2012a_hl,10,No Testing,Training
+ishikawa2012a_hl,11,No Testing,Training
+ishikawa2012a_hl,12,No Testing,Training
+ishikawa2012a_hl,13,No Testing,Training
+ishikawa2012a_hl,14,No Testing,Training
+ishikawa2012a_hl,15,Post-Intervention,No Training
+ishikawa2012a_ml,-1,Pre-Baseline,No Training
+ishikawa2012a_ml,0,Baseline,No Training
+ishikawa2012a_ml,1,No Testing,Training
+ishikawa2012a_ml,2,No Testing,Training
+ishikawa2012a_ml,3,No Testing,Training
+ishikawa2012a_ml,4,No Testing,Training
+ishikawa2012a_ml,5,No Testing,Training
+ishikawa2012a_ml,6,No Testing,Training
+ishikawa2012a_ml,7,No Testing,Training
+ishikawa2012a_ml,8,No Testing,Training
+ishikawa2012a_ml,9,No Testing,Training
+ishikawa2012a_ml,10,No Testing,Training
+ishikawa2012a_ml,11,No Testing,Training
+ishikawa2012a_ml,12,No Testing,Training
+ishikawa2012a_ml,13,No Testing,Training
+ishikawa2012a_ml,14,No Testing,Training
+ishikawa2012a_ml,15,Post-Intervention,No Training
+ishikawa2012a_ll,-1,Pre-Baseline,No Training
+ishikawa2012a_ll,0,Baseline,No Training
+ishikawa2012a_ll,1,No Testing,Training
+ishikawa2012a_ll,2,No Testing,Training
+ishikawa2012a_ll,3,No Testing,Training
+ishikawa2012a_ll,4,No Testing,Training
+ishikawa2012a_ll,5,No Testing,Training
+ishikawa2012a_ll,6,No Testing,Training
+ishikawa2012a_ll,7,No Testing,Training
+ishikawa2012a_ll,8,No Testing,Training
+ishikawa2012a_ll,9,No Testing,Training
+ishikawa2012a_ll,10,No Testing,Training
+ishikawa2012a_ll,11,No Testing,Training
+ishikawa2012a_ll,12,No Testing,Training
+ishikawa2012a_ll,13,No Testing,Training
+ishikawa2012a_ll,14,No Testing,Training
+ishikawa2012a_ll,15,Post-Intervention,No Training
+ishikawa2012a_con,-1,Pre-Baseline,No Training
+ishikawa2012a_con,0,Baseline,No Training
+ishikawa2012a_con,1,No Testing,Non-Training Control
+ishikawa2012a_con,2,No Testing,Non-Training Control
+ishikawa2012a_con,3,No Testing,Non-Training Control
+ishikawa2012a_con,4,No Testing,Non-Training Control
+ishikawa2012a_con,5,No Testing,Non-Training Control
+ishikawa2012a_con,6,No Testing,Non-Training Control
+ishikawa2012a_con,7,No Testing,Non-Training Control
+ishikawa2012a_con,8,No Testing,Non-Training Control
+ishikawa2012a_con,9,No Testing,Non-Training Control
+ishikawa2012a_con,10,No Testing,Non-Training Control
+ishikawa2012a_con,11,No Testing,Non-Training Control
+ishikawa2012a_con,12,No Testing,Non-Training Control
+ishikawa2012a_con,13,No Testing,Non-Training Control
+ishikawa2012a_con,14,No Testing,Non-Training Control
+ishikawa2012a_con,15,Post-Intervention,No Training
+zielinski2018a_fail,-3,No Testing,Standardized Training
+zielinski2018a_fail,-2,No Testing,Standardized Training
+zielinski2018a_fail,-1,No Testing,Standardized Training
+zielinski2018a_fail,0,Baseline,No Training
+zielinski2018a_fail,1,No Testing,Training
+zielinski2018a_fail,2,No Testing,Training
+zielinski2018a_fail,3,No Testing,Training
+zielinski2018a_fail,4,No Testing,Training
+zielinski2018a_fail,5,No Testing,Training
+zielinski2018a_fail,6,No Testing,Training
+zielinski2018a_fail,7,No Testing,Training
+zielinski2018a_fail,8,No Testing,Training
+zielinski2018a_fail,9,No Testing,Training
+zielinski2018a_fail,10,Post-Intervention,No Training
+zielinski2018a_rir3,-3,No Testing,Standardized Training
+zielinski2018a_rir3,-2,No Testing,Standardized Training
+zielinski2018a_rir3,-1,No Testing,Standardized Training
+zielinski2018a_rir3,0,Baseline,No Training
+zielinski2018a_rir3,1,No Testing,Training
+zielinski2018a_rir3,2,No Testing,Training
+zielinski2018a_rir3,3,No Testing,Training
+zielinski2018a_rir3,4,No Testing,Training
+zielinski2018a_rir3,5,No Testing,Training
+zielinski2018a_rir3,6,No Testing,Training
+zielinski2018a_rir3,7,No Testing,Training
+zielinski2018a_rir3,8,No Testing,Training
+zielinski2018a_rir3,9,No Testing,Training
+zielinski2018a_rir3,10,Post-Intervention,No Training
+lindqvist2026a_2set,0,Baseline,No Training
+lindqvist2026a_2set,1,No Testing,Training
+lindqvist2026a_2set,2,No Testing,Training
+lindqvist2026a_2set,3,Mid-Intervention,Training
+lindqvist2026a_2set,4,No Testing,Training
+lindqvist2026a_2set,5,No Testing,Training
+lindqvist2026a_2set,6,No Testing,Training
+lindqvist2026a_2set,7,Post-Intervention,No Training
+lindqvist2026a_5set,0,Baseline,No Training
+lindqvist2026a_5set,1,No Testing,Training
+lindqvist2026a_5set,2,No Testing,Training
+lindqvist2026a_5set,3,Mid-Intervention,Training
+lindqvist2026a_5set,4,No Testing,Training
+lindqvist2026a_5set,5,No Testing,Training
+lindqvist2026a_5set,6,No Testing,Training
+lindqvist2026a_5set,7,Post-Intervention,No Training
+jovanovic2026a_fail,0,Baseline,No Training
+jovanovic2026a_fail,1,No Testing,Training
+jovanovic2026a_fail,2,No Testing,Training
+jovanovic2026a_fail,3,No Testing,Training
+jovanovic2026a_fail,4,Mid-Intervention,Training
+jovanovic2026a_fail,5,No Testing,Training
+jovanovic2026a_fail,6,No Testing,Training
+jovanovic2026a_fail,7,No Testing,Training
+jovanovic2026a_fail,8,No Testing,Training
+jovanovic2026a_fail,9,Post-Intervention,No Training
+jovanovic2026a_rir3,0,Baseline,No Training
+jovanovic2026a_rir3,1,No Testing,Training
+jovanovic2026a_rir3,2,No Testing,Training
+jovanovic2026a_rir3,3,No Testing,Training
+jovanovic2026a_rir3,4,Mid-Intervention,Training
+jovanovic2026a_rir3,5,No Testing,Training
+jovanovic2026a_rir3,6,No Testing,Training
+jovanovic2026a_rir3,7,No Testing,Training
+jovanovic2026a_rir3,8,No Testing,Training
+jovanovic2026a_rir3,9,Post-Intervention,No Training
+ekberg2013a_fail,-1,Pre-Baseline,No Training
+ekberg2013a_fail,0,Baseline,No Training
+ekberg2013a_fail,1,No Testing,Training
+ekberg2013a_fail,2,No Testing,Training
+ekberg2013a_fail,3,No Testing,Training
+ekberg2013a_fail,4,No Testing,Training
+ekberg2013a_fail,5,No Testing,Training
+ekberg2013a_fail,6,No Testing,Training
+ekberg2013a_fail,7,No Testing,Training
+ekberg2013a_fail,8,No Testing,Training
+ekberg2013a_fail,9,No Testing,Training
+ekberg2013a_fail,10,No Testing,Training
+ekberg2013a_fail,11,No Testing,Training
+ekberg2013a_fail,12,No Testing,Reduced Training
+ekberg2013a_fail,13,No Testing,Training
+ekberg2013a_fail,14,Post-Intervention,No Training
+ekberg2013a_rir3,-1,Pre-Baseline,No Training
+ekberg2013a_rir3,0,Baseline,No Training
+ekberg2013a_rir3,1,No Testing,Training
+ekberg2013a_rir3,2,No Testing,Training
+ekberg2013a_rir3,3,No Testing,Training
+ekberg2013a_rir3,4,No Testing,Training
+ekberg2013a_rir3,5,No Testing,Training
+ekberg2013a_rir3,6,No Testing,Training
+ekberg2013a_rir3,7,No Testing,Training
+ekberg2013a_rir3,8,No Testing,Training
+ekberg2013a_rir3,9,No Testing,Training
+ekberg2013a_rir3,10,No Testing,Training
+ekberg2013a_rir3,11,No Testing,Training
+ekberg2013a_rir3,12,No Testing,Reduced Training
+ekberg2013a_rir3,13,No Testing,Training
+ekberg2013a_rir3,14,Post-Intervention,No Training
+ekberg2013a_con,-1,Pre-Baseline,No Training
+ekberg2013a_con,0,Baseline,No Training
+ekberg2013a_con,1,No Testing,Non-Training Control
+ekberg2013a_con,2,No Testing,Non-Training Control
+ekberg2013a_con,3,No Testing,Non-Training Control
+ekberg2013a_con,4,No Testing,Non-Training Control
+ekberg2013a_con,5,No Testing,Non-Training Control
+ekberg2013a_con,6,No Testing,Non-Training Control
+ekberg2013a_con,7,No Testing,Non-Training Control
+ekberg2013a_con,8,No Testing,Non-Training Control
+ekberg2013a_con,9,No Testing,Non-Training Control
+ekberg2013a_con,10,No Testing,Non-Training Control
+ekberg2013a_con,11,No Testing,Non-Training Control
+ekberg2013a_con,12,No Testing,Non-Training Control
+ekberg2013a_con,13,No Testing,Non-Training Control
+ekberg2013a_con,14,Post-Intervention,No Training
+iversen2023a_1set,0,Baseline,No Training
+iversen2023a_1set,1,No Testing,Training
+iversen2023a_1set,2,No Testing,Training
+iversen2023a_1set,3,No Testing,Training
+iversen2023a_1set,4,No Testing,Training
+iversen2023a_1set,5,No Testing,Training
+iversen2023a_1set,6,Mid-Intervention,Training
+iversen2023a_1set,7,No Testing,Training
+iversen2023a_1set,8,No Testing,Training
+iversen2023a_1set,9,No Testing,Training
+iversen2023a_1set,10,No Testing,Training
+iversen2023a_1set,11,No Testing,Training
+iversen2023a_1set,12,No Testing,Training
+iversen2023a_1set,13,Post-Intervention,No Training
+iversen2023a_2set,0,Baseline,No Training
+iversen2023a_2set,1,No Testing,Training
+iversen2023a_2set,2,No Testing,Training
+iversen2023a_2set,3,No Testing,Training
+iversen2023a_2set,4,No Testing,Training
+iversen2023a_2set,5,No Testing,Training
+iversen2023a_2set,6,Mid-Intervention,Training
+iversen2023a_2set,7,No Testing,Training
+iversen2023a_2set,8,No Testing,Training
+iversen2023a_2set,9,No Testing,Training
+iversen2023a_2set,10,No Testing,Training
+iversen2023a_2set,11,No Testing,Training
+iversen2023a_2set,12,No Testing,Training
+iversen2023a_2set,13,Post-Intervention,No Training
+iversen2023a_4set,0,Baseline,No Training
+iversen2023a_4set,1,No Testing,Training
+iversen2023a_4set,2,No Testing,Training
+iversen2023a_4set,3,No Testing,Training
+iversen2023a_4set,4,No Testing,Training
+iversen2023a_4set,5,No Testing,Training
+iversen2023a_4set,6,Mid-Intervention,Training
+iversen2023a_4set,7,No Testing,Training
+iversen2023a_4set,8,No Testing,Training
+iversen2023a_4set,9,No Testing,Training
+iversen2023a_4set,10,No Testing,Training
+iversen2023a_4set,11,No Testing,Training
+iversen2023a_4set,12,No Testing,Training
+iversen2023a_4set,13,Post-Intervention,No Training
+iversen2023a_6set,0,Baseline,No Training
+iversen2023a_6set,1,No Testing,Training
+iversen2023a_6set,2,No Testing,Training
+iversen2023a_6set,3,No Testing,Training
+iversen2023a_6set,4,No Testing,Training
+iversen2023a_6set,5,No Testing,Training
+iversen2023a_6set,6,Mid-Intervention,Training
+iversen2023a_6set,7,No Testing,Training
+iversen2023a_6set,8,No Testing,Training
+iversen2023a_6set,9,No Testing,Training
+iversen2023a_6set,10,No Testing,Training
+iversen2023a_6set,11,No Testing,Training
+iversen2023a_6set,12,No Testing,Training
+iversen2023a_6set,13,Post-Intervention,No Training
+iversen2023a_con,0,Baseline,No Training
+iversen2023a_con,1,No Testing,Non-Training Control
+iversen2023a_con,2,No Testing,Non-Training Control
+iversen2023a_con,3,No Testing,Non-Training Control
+iversen2023a_con,4,No Testing,Non-Training Control
+iversen2023a_con,5,No Testing,Non-Training Control
+iversen2023a_con,6,Mid-Intervention,Non-Training Control
+iversen2023a_con,7,No Testing,Non-Training Control
+iversen2023a_con,8,No Testing,Non-Training Control
+iversen2023a_con,9,No Testing,Non-Training Control
+iversen2023a_con,10,No Testing,Non-Training Control
+iversen2023a_con,11,No Testing,Non-Training Control
+iversen2023a_con,12,No Testing,Non-Training Control
+iversen2023a_con,13,Post-Intervention,No Training
+castellano2013a_fail,0,Baseline,No Training
+castellano2013a_fail,1,No Testing,Training
+castellano2013a_fail,2,No Testing,Training
+castellano2013a_fail,3,No Testing,Training
+castellano2013a_fail,4,No Testing,Training
+castellano2013a_fail,5,No Testing,Training
+castellano2013a_fail,6,No Testing,Training
+castellano2013a_fail,7,No Testing,Training
+castellano2013a_fail,8,No Testing,Training
+castellano2013a_fail,9,No Testing,Training
+castellano2013a_fail,10,No Testing,Training
+castellano2013a_fail,11,Post-Intervention,No Training
+castellano2013a_rir3,0,Baseline,No Training
+castellano2013a_rir3,1,No Testing,Training
+castellano2013a_rir3,2,No Testing,Training
+castellano2013a_rir3,3,No Testing,Training
+castellano2013a_rir3,4,No Testing,Training
+castellano2013a_rir3,5,No Testing,Training
+castellano2013a_rir3,6,No Testing,Training
+castellano2013a_rir3,7,No Testing,Training
+castellano2013a_rir3,8,No Testing,Training
+castellano2013a_rir3,9,No Testing,Training
+castellano2013a_rir3,10,No Testing,Training
+castellano2013a_rir3,11,Post-Intervention,No Training
+oduya2021a_2set,-1,Pre-Baseline,No Training
+oduya2021a_2set,0,Baseline,No Training
+oduya2021a_2set,1,No Testing,Training
+oduya2021a_2set,2,No Testing,Training
+oduya2021a_2set,3,No Testing,Training
+oduya2021a_2set,4,No Testing,Training
+oduya2021a_2set,5,No Testing,Training
+oduya2021a_2set,6,Mid-Intervention,Training
+oduya2021a_2set,7,No Testing,Training
+oduya2021a_2set,8,No Testing,Training
+oduya2021a_2set,9,No Testing,Training
+oduya2021a_2set,10,No Testing,Training
+oduya2021a_2set,11,No Testing,Training
+oduya2021a_2set,12,Post-Intervention,No Training
+oduya2021a_5set,-1,Pre-Baseline,No Training
+oduya2021a_5set,0,Baseline,No Training
+oduya2021a_5set,1,No Testing,Training
+oduya2021a_5set,2,No Testing,Training
+oduya2021a_5set,3,No Testing,Training
+oduya2021a_5set,4,No Testing,Training
+oduya2021a_5set,5,No Testing,Training
+oduya2021a_5set,6,Mid-Intervention,Training
+oduya2021a_5set,7,No Testing,Training
+oduya2021a_5set,8,No Testing,Training
+oduya2021a_5set,9,No Testing,Training
+oduya2021a_5set,10,No Testing,Training
+oduya2021a_5set,11,No Testing,Training
+oduya2021a_5set,12,Post-Intervention,No Training
+oduya2021a_con,-1,Pre-Baseline,No Training
+oduya2021a_con,0,Baseline,No Training
+oduya2021a_con,1,No Testing,Non-Training Control
+oduya2021a_con,2,No Testing,Non-Training Control
+oduya2021a_con,3,No Testing,Non-Training Control
+oduya2021a_con,4,No Testing,Non-Training Control
+oduya2021a_con,5,No Testing,Non-Training Control
+oduya2021a_con,6,Mid-Intervention,Non-Training Control
+oduya2021a_con,7,No Testing,Non-Training Control
+oduya2021a_con,8,No Testing,Non-Training Control
+oduya2021a_con,9,No Testing,Non-Training Control
+oduya2021a_con,10,No Testing,Non-Training Control
+oduya2021a_con,11,No Testing,Non-Training Control
+oduya2021a_con,12,Post-Intervention,No Training
+abernathy2017a_1set,0,Baseline,No Training
+abernathy2017a_1set,1,No Testing,Training
+abernathy2017a_1set,2,No Testing,Training
+abernathy2017a_1set,3,No Testing,Training
+abernathy2017a_1set,4,No Testing,Training
+abernathy2017a_1set,5,No Testing,Training
+abernathy2017a_1set,6,No Testing,Training
+abernathy2017a_1set,7,Mid-Intervention,Training
+abernathy2017a_1set,8,No Testing,No Training
+abernathy2017a_1set,9,No Testing,Training
+abernathy2017a_1set,10,No Testing,Training
+abernathy2017a_1set,11,No Testing,Training
+abernathy2017a_1set,12,No Testing,Training
+abernathy2017a_1set,13,No Testing,Training
+abernathy2017a_1set,14,No Testing,Training
+abernathy2017a_1set,15,Post-Intervention,No Training
+abernathy2017a_2set,0,Baseline,No Training
+abernathy2017a_2set,1,No Testing,Training
+abernathy2017a_2set,2,No Testing,Training
+abernathy2017a_2set,3,No Testing,Training
+abernathy2017a_2set,4,No Testing,Training
+abernathy2017a_2set,5,No Testing,Training
+abernathy2017a_2set,6,No Testing,Training
+abernathy2017a_2set,7,Mid-Intervention,Training
+abernathy2017a_2set,8,No Testing,No Training
+abernathy2017a_2set,9,No Testing,Training
+abernathy2017a_2set,10,No Testing,Training
+abernathy2017a_2set,11,No Testing,Training
+abernathy2017a_2set,12,No Testing,Training
+abernathy2017a_2set,13,No Testing,Training
+abernathy2017a_2set,14,No Testing,Training
+abernathy2017a_2set,15,Post-Intervention,No Training
+abernathy2017a_4set,0,Baseline,No Training
+abernathy2017a_4set,1,No Testing,Training
+abernathy2017a_4set,2,No Testing,Training
+abernathy2017a_4set,3,No Testing,Training
+abernathy2017a_4set,4,No Testing,Training
+abernathy2017a_4set,5,No Testing,Training
+abernathy2017a_4set,6,No Testing,Training
+abernathy2017a_4set,7,Mid-Intervention,Training
+abernathy2017a_4set,8,No Testing,No Training
+abernathy2017a_4set,9,No Testing,Training
+abernathy2017a_4set,10,No Testing,Training
+abernathy2017a_4set,11,No Testing,Training
+abernathy2017a_4set,12,No Testing,Training
+abernathy2017a_4set,13,No Testing,Training
+abernathy2017a_4set,14,No Testing,Training
+abernathy2017a_4set,15,Post-Intervention,No Training
+abernathy2017a_6set,0,Baseline,No Training
+abernathy2017a_6set,1,No Testing,Training
+abernathy2017a_6set,2,No Testing,Training
+abernathy2017a_6set,3,No Testing,Training
+abernathy2017a_6set,4,No Testing,Training
+abernathy2017a_6set,5,No Testing,Training
+abernathy2017a_6set,6,No Testing,Training
+abernathy2017a_6set,7,Mid-Intervention,Training
+abernathy2017a_6set,8,No Testing,No Training
+abernathy2017a_6set,9,No Testing,Training
+abernathy2017a_6set,10,No Testing,Training
+abernathy2017a_6set,11,No Testing,Training
+abernathy2017a_6set,12,No Testing,Training
+abernathy2017a_6set,13,No Testing,Training
+abernathy2017a_6set,14,No Testing,Training
+abernathy2017a_6set,15,Post-Intervention,No Training
+duarte2015a_2set,0,Baseline,No Training
+duarte2015a_2set,1,No Testing,Training
+duarte2015a_2set,2,No Testing,Training
+duarte2015a_2set,3,No Testing,Training
+duarte2015a_2set,4,No Testing,Training
+duarte2015a_2set,5,No Testing,Training
+duarte2015a_2set,6,No Testing,Training
+duarte2015a_2set,7,No Testing,Training
+duarte2015a_2set,8,No Testing,Training
+duarte2015a_2set,9,No Testing,Training
+duarte2015a_2set,10,No Testing,Training
+duarte2015a_2set,11,No Testing,Training
+duarte2015a_2set,12,No Testing,Training
+duarte2015a_2set,13,No Testing,Reduced Training
+duarte2015a_2set,14,No Testing,Training
+duarte2015a_2set,15,Post-Intervention,No Training
+duarte2015a_5set,0,Baseline,No Training
+duarte2015a_5set,1,No Testing,Training
+duarte2015a_5set,2,No Testing,Training
+duarte2015a_5set,3,No Testing,Training
+duarte2015a_5set,4,No Testing,Training
+duarte2015a_5set,5,No Testing,Training
+duarte2015a_5set,6,No Testing,Training
+duarte2015a_5set,7,No Testing,Training
+duarte2015a_5set,8,No Testing,Training
+duarte2015a_5set,9,No Testing,Training
+duarte2015a_5set,10,No Testing,Training
+duarte2015a_5set,11,No Testing,Training
+duarte2015a_5set,12,No Testing,Training
+duarte2015a_5set,13,No Testing,Reduced Training
+duarte2015a_5set,14,No Testing,Training
+duarte2015a_5set,15,Post-Intervention,No Training
+duarte2015a_con,0,Baseline,No Training
+duarte2015a_con,1,No Testing,Non-Training Control
+duarte2015a_con,2,No Testing,Non-Training Control
+duarte2015a_con,3,No Testing,Non-Training Control
+duarte2015a_con,4,No Testing,Non-Training Control
+duarte2015a_con,5,No Testing,Non-Training Control
+duarte2015a_con,6,No Testing,Non-Training Control
+duarte2015a_con,7,No Testing,Non-Training Control
+duarte2015a_con,8,No Testing,Non-Training Control
+duarte2015a_con,9,No Testing,Non-Training Control
+duarte2015a_con,10,No Testing,Non-Training Control
+duarte2015a_con,11,No Testing,Non-Training Control
+duarte2015a_con,12,No Testing,Non-Training Control
+duarte2015a_con,13,No Testing,Non-Training Control
+duarte2015a_con,14,No Testing,Non-Training Control
+duarte2015a_con,15,Post-Intervention,No Training
+delacroix2022a_hl,0,Baseline,No Training
+delacroix2022a_hl,1,No Testing,Training
+delacroix2022a_hl,2,No Testing,Training
+delacroix2022a_hl,3,No Testing,Training
+delacroix2022a_hl,4,No Testing,Training
+delacroix2022a_hl,5,No Testing,Training
+delacroix2022a_hl,6,No Testing,Training
+delacroix2022a_hl,7,No Testing,Training
+delacroix2022a_hl,8,No Testing,Training
+delacroix2022a_hl,9,No Testing,No Training
+delacroix2022a_hl,10,No Testing,Training
+delacroix2022a_hl,11,No Testing,Training
+delacroix2022a_hl,12,No Testing,Training
+delacroix2022a_hl,13,No Testing,Training
+delacroix2022a_hl,14,No Testing,Training
+delacroix2022a_hl,15,No Testing,Training
+delacroix2022a_hl,16,No Testing,Training
+delacroix2022a_hl,17,Post-Intervention,No Training
+delacroix2022a_ml,0,Baseline,No Training
+delacroix2022a_ml,1,No Testing,Training
+delacroix2022a_ml,2,No Testing,Training
+delacroix2022a_ml,3,No Testing,Training
+delacroix2022a_ml,4,No Testing,Training
+delacroix2022a_ml,5,No Testing,Training
+delacroix2022a_ml,6,No Testing,Training
+delacroix2022a_ml,7,No Testing,Training
+delacroix2022a_ml,8,No Testing,Training
+delacroix2022a_ml,9,No Testing,No Training
+delacroix2022a_ml,10,No Testing,Training
+delacroix2022a_ml,11,No Testing,Training
+delacroix2022a_ml,12,No Testing,Training
+delacroix2022a_ml,13,No Testing,Training
+delacroix2022a_ml,14,No Testing,Training
+delacroix2022a_ml,15,No Testing,Training
+delacroix2022a_ml,16,No Testing,Training
+delacroix2022a_ml,17,Post-Intervention,No Training
+delacroix2022a_ll,0,Baseline,No Training
+delacroix2022a_ll,1,No Testing,Training
+delacroix2022a_ll,2,No Testing,Training
+delacroix2022a_ll,3,No Testing,Training
+delacroix2022a_ll,4,No Testing,Training
+delacroix2022a_ll,5,No Testing,Training
+delacroix2022a_ll,6,No Testing,Training
+delacroix2022a_ll,7,No Testing,Training
+delacroix2022a_ll,8,No Testing,Training
+delacroix2022a_ll,9,No Testing,No Training
+delacroix2022a_ll,10,No Testing,Training
+delacroix2022a_ll,11,No Testing,Training
+delacroix2022a_ll,12,No Testing,Training
+delacroix2022a_ll,13,No Testing,Training
+delacroix2022a_ll,14,No Testing,Training
+delacroix2022a_ll,15,No Testing,Training
+delacroix2022a_ll,16,No Testing,Training
+delacroix2022a_ll,17,Post-Intervention,No Training
+uribe2020a_hl,-1,Pre-Baseline,No Training
+uribe2020a_hl,0,Baseline,No Training
+uribe2020a_hl,1,No Testing,Training
+uribe2020a_hl,2,No Testing,Training
+uribe2020a_hl,3,No Testing,Training
+uribe2020a_hl,4,No Testing,Training
+uribe2020a_hl,5,No Testing,Training
+uribe2020a_hl,6,Mid-Intervention,Training
+uribe2020a_hl,7,No Testing,Training
+uribe2020a_hl,8,No Testing,Training
+uribe2020a_hl,9,No Testing,Training
+uribe2020a_hl,10,No Testing,Training
+uribe2020a_hl,11,No Testing,Training
+uribe2020a_hl,12,No Testing,Training
+uribe2020a_hl,13,Post-Intervention,No Training
+uribe2020a_ll,-1,Pre-Baseline,No Training
+uribe2020a_ll,0,Baseline,No Training
+uribe2020a_ll,1,No Testing,Training
+uribe2020a_ll,2,No Testing,Training
+uribe2020a_ll,3,No Testing,Training
+uribe2020a_ll,4,No Testing,Training
+uribe2020a_ll,5,No Testing,Training
+uribe2020a_ll,6,Mid-Intervention,Training
+uribe2020a_ll,7,No Testing,Training
+uribe2020a_ll,8,No Testing,Training
+uribe2020a_ll,9,No Testing,Training
+uribe2020a_ll,10,No Testing,Training
+uribe2020a_ll,11,No Testing,Training
+uribe2020a_ll,12,No Testing,Training
+uribe2020a_ll,13,Post-Intervention,No Training
+hartley2008a_fail,-1,Pre-Baseline,No Training
+hartley2008a_fail,0,Baseline,No Training
+hartley2008a_fail,1,No Testing,Training
+hartley2008a_fail,2,No Testing,Training
+hartley2008a_fail,3,No Testing,Training
+hartley2008a_fail,4,No Testing,Training
+hartley2008a_fail,5,No Testing,Training
+hartley2008a_fail,6,No Testing,Training
+hartley2008a_fail,7,No Testing,Training
+hartley2008a_fail,8,No Testing,Training
+hartley2008a_fail,9,No Testing,Training
+hartley2008a_fail,10,No Testing,Training
+hartley2008a_fail,11,No Testing,Training
+hartley2008a_fail,12,No Testing,Training
+hartley2008a_fail,13,No Testing,Training
+hartley2008a_fail,14,No Testing,Training
+hartley2008a_fail,15,No Testing,Training
+hartley2008a_fail,16,No Testing,Training
+hartley2008a_fail,17,Post-Intervention,No Training
+hartley2008a_rir3,-1,Pre-Baseline,No Training
+hartley2008a_rir3,0,Baseline,No Training
+hartley2008a_rir3,1,No Testing,Training
+hartley2008a_rir3,2,No Testing,Training
+hartley2008a_rir3,3,No Testing,Training
+hartley2008a_rir3,4,No Testing,Training
+hartley2008a_rir3,5,No Testing,Training
+hartley2008a_rir3,6,No Testing,Training
+hartley2008a_rir3,7,No Testing,Training
+hartley2008a_rir3,8,No Testing,Training
+hartley2008a_rir3,9,No Testing,Training
+hartley2008a_rir3,10,No Testing,Training
+hartley2008a_rir3,11,No Testing,Training
+hartley2008a_rir3,12,No Testing,Training
+hartley2008a_rir3,13,No Testing,Training
+hartley2008a_rir3,14,No Testing,Training
+hartley2008a_rir3,15,No Testing,Training
+hartley2008a_rir3,16,No Testing,Training
+hartley2008a_rir3,17,Post-Intervention,No Training
+takeda2020a_2set,0,Baseline,No Training
+takeda2020a_2set,1,No Testing,Training
+takeda2020a_2set,2,No Testing,Training
+takeda2020a_2set,3,No Testing,Training
+takeda2020a_2set,4,No Testing,Training
+takeda2020a_2set,5,No Testing,Training
+takeda2020a_2set,6,No Testing,Training
+takeda2020a_2set,7,No Testing,Training
+takeda2020a_2set,8,No Testing,Training
+takeda2020a_2set,9,No Testing,Training
+takeda2020a_2set,10,Post-Intervention,No Training
+takeda2020a_5set,0,Baseline,No Training
+takeda2020a_5set,1,No Testing,Training
+takeda2020a_5set,2,No Testing,Training
+takeda2020a_5set,3,No Testing,Training
+takeda2020a_5set,4,No Testing,Training
+takeda2020a_5set,5,No Testing,Training
+takeda2020a_5set,6,No Testing,Training
+takeda2020a_5set,7,No Testing,Training
+takeda2020a_5set,8,No Testing,Training
+takeda2020a_5set,9,No Testing,Training
+takeda2020a_5set,10,Post-Intervention,No Training
+ishikawa2013a_f1,0,Baseline,No Training
+ishikawa2013a_f1,1,No Testing,Training
+ishikawa2013a_f1,2,No Testing,Training
+ishikawa2013a_f1,3,No Testing,Training
+ishikawa2013a_f1,4,No Testing,Training
+ishikawa2013a_f1,5,No Testing,Training
+ishikawa2013a_f1,6,No Testing,Training
+ishikawa2013a_f1,7,No Testing,Training
+ishikawa2013a_f1,8,No Testing,Training
+ishikawa2013a_f1,9,No Testing,Training
+ishikawa2013a_f1,10,No Testing,Training
+ishikawa2013a_f1,11,No Testing,Training
+ishikawa2013a_f1,12,No Testing,Training
+ishikawa2013a_f1,13,Post-Intervention,No Training
+ishikawa2013a_f3,0,Baseline,No Training
+ishikawa2013a_f3,1,No Testing,Training
+ishikawa2013a_f3,2,No Testing,Training
+ishikawa2013a_f3,3,No Testing,Training
+ishikawa2013a_f3,4,No Testing,Training
+ishikawa2013a_f3,5,No Testing,Training
+ishikawa2013a_f3,6,No Testing,Training
+ishikawa2013a_f3,7,No Testing,Training
+ishikawa2013a_f3,8,No Testing,Training
+ishikawa2013a_f3,9,No Testing,Training
+ishikawa2013a_f3,10,No Testing,Training
+ishikawa2013a_f3,11,No Testing,Training
+ishikawa2013a_f3,12,No Testing,Training
+ishikawa2013a_f3,13,Post-Intervention,No Training
+takeda2012a_fail,-1,Pre-Baseline,No Training
+takeda2012a_fail,0,Baseline,No Training
+takeda2012a_fail,1,No Testing,Training
+takeda2012a_fail,2,No Testing,Training
+takeda2012a_fail,3,No Testing,Training
+takeda2012a_fail,4,No Testing,Training
+takeda2012a_fail,5,No Testing,Training
+takeda2012a_fail,6,No Testing,Training
+takeda2012a_fail,7,No Testing,Training
+takeda2012a_fail,8,No Testing,Training
+takeda2012a_fail,9,No Testing,Training
+takeda2012a_fail,10,No Testing,Training
+takeda2012a_fail,11,No Testing,Training
+takeda2012a_fail,12,No Testing,Training
+takeda2012a_fail,13,No Testing,Training
+takeda2012a_fail,14,Post-Intervention,No Training
+takeda2012a_rir3,-1,Pre-Baseline,No Training
+takeda2012a_rir3,0,Baseline,No Training
+takeda2012a_rir3,1,No Testing,Training
+takeda2012a_rir3,2,No Testing,Training
+takeda2012a_rir3,3,No Testing,Training
+takeda2012a_rir3,4,No Testing,Training
+takeda2012a_rir3,5,No Testing,Training
+takeda2012a_rir3,6,No Testing,Training
+takeda2012a_rir3,7,No Testing,Training
+takeda2012a_rir3,8,No Testing,Training
+takeda2012a_rir3,9,No Testing,Training
+takeda2012a_rir3,10,No Testing,Training
+takeda2012a_rir3,11,No Testing,Training
+takeda2012a_rir3,12,No Testing,Training
+takeda2012a_rir3,13,No Testing,Training
+takeda2012a_rir3,14,Post-Intervention,No Training
+takeda2012a_con,-1,Pre-Baseline,No Training
+takeda2012a_con,0,Baseline,No Training
+takeda2012a_con,1,No Testing,Non-Training Control
+takeda2012a_con,2,No Testing,Non-Training Control
+takeda2012a_con,3,No Testing,Non-Training Control
+takeda2012a_con,4,No Testing,Non-Training Control
+takeda2012a_con,5,No Testing,Non-Training Control
+takeda2012a_con,6,No Testing,Non-Training Control
+takeda2012a_con,7,No Testing,Non-Training Control
+takeda2012a_con,8,No Testing,Non-Training Control
+takeda2012a_con,9,No Testing,Non-Training Control
+takeda2012a_con,10,No Testing,Non-Training Control
+takeda2012a_con,11,No Testing,Non-Training Control
+takeda2012a_con,12,No Testing,Non-Training Control
+takeda2012a_con,13,No Testing,Non-Training Control
+takeda2012a_con,14,Post-Intervention,No Training
+delacroix2015a_hl,-1,Pre-Baseline,No Training
+delacroix2015a_hl,0,Baseline,No Training
+delacroix2015a_hl,1,No Testing,Training
+delacroix2015a_hl,2,No Testing,Training
+delacroix2015a_hl,3,No Testing,Training
+delacroix2015a_hl,4,No Testing,Training
+delacroix2015a_hl,5,No Testing,Training
+delacroix2015a_hl,6,No Testing,Training
+delacroix2015a_hl,7,No Testing,Training
+delacroix2015a_hl,8,Mid-Intervention,Training
+delacroix2015a_hl,9,No Testing,Training
+delacroix2015a_hl,10,No Testing,Training
+delacroix2015a_hl,11,No Testing,Training
+delacroix2015a_hl,12,No Testing,Training
+delacroix2015a_hl,13,No Testing,Training
+delacroix2015a_hl,14,No Testing,Training
+delacroix2015a_hl,15,No Testing,Training
+delacroix2015a_hl,16,Post-Intervention,No Training
+delacroix2015a_ll,-1,Pre-Baseline,No Training
+delacroix2015a_ll,0,Baseline,No Training
+delacroix2015a_ll,1,No Testing,Training
+delacroix2015a_ll,2,No Testing,Training
+delacroix2015a_ll,3,No Testing,Training
+delacroix2015a_ll,4,No Testing,Training
+delacroix2015a_ll,5,No Testing,Training
+delacroix2015a_ll,6,No Testing,Training
+delacroix2015a_ll,7,No Testing,Training
+delacroix2015a_ll,8,Mid-Intervention,Training
+delacroix2015a_ll,9,No Testing,Training
+delacroix2015a_ll,10,No Testing,Training
+delacroix2015a_ll,11,No Testing,Training
+delacroix2015a_ll,12,No Testing,Training
+delacroix2015a_ll,13,No Testing,Training
+delacroix2015a_ll,14,No Testing,Training
+delacroix2015a_ll,15,No Testing,Training
+delacroix2015a_ll,16,Post-Intervention,No Training
+delacroix2015a_con,-1,Pre-Baseline,No Training
+delacroix2015a_con,0,Baseline,No Training
+delacroix2015a_con,1,No Testing,Non-Training Control
+delacroix2015a_con,2,No Testing,Non-Training Control
+delacroix2015a_con,3,No Testing,Non-Training Control
+delacroix2015a_con,4,No Testing,Non-Training Control
+delacroix2015a_con,5,No Testing,Non-Training Control
+delacroix2015a_con,6,No Testing,Non-Training Control
+delacroix2015a_con,7,No Testing,Non-Training Control
+delacroix2015a_con,8,Mid-Intervention,Non-Training Control
+delacroix2015a_con,9,No Testing,Non-Training Control
+delacroix2015a_con,10,No Testing,Non-Training Control
+delacroix2015a_con,11,No Testing,Non-Training Control
+delacroix2015a_con,12,No Testing,Non-Training Control
+delacroix2015a_con,13,No Testing,Non-Training Control
+delacroix2015a_con,14,No Testing,Non-Training Control
+delacroix2015a_con,15,No Testing,Non-Training Control
+delacroix2015a_con,16,Post-Intervention,No Training
+varga2020a_1set,-4,Pre-Baseline,No Training
+varga2020a_1set,-3,No Testing,Standardized Training
+varga2020a_1set,-2,No Testing,Standardized Training
+varga2020a_1set,-1,No Testing,Standardized Training
+varga2020a_1set,0,Baseline,No Training
+varga2020a_1set,1,No Testing,Training
+varga2020a_1set,2,No Testing,Training
+varga2020a_1set,3,No Testing,Training
+varga2020a_1set,4,No Testing,Training
+varga2020a_1set,5,No Testing,Training
+varga2020a_1set,6,No Testing,Training
+varga2020a_1set,7,No Testing,Reduced Training
+varga2020a_1set,8,No Testing,Training
+varga2020a_1set,9,Post-Intervention,No Training
+varga2020a_3set,-4,Pre-Baseline,No Training
+varga2020a_3set,-3,No Testing,Standardized Training
+varga2020a_3set,-2,No Testing,Standardized Training
+varga2020a_3set,-1,No Testing,Standardized Training
+varga2020a_3set,0,Baseline,No Training
+varga2020a_3set,1,No Testing,Training
+varga2020a_3set,2,No Testing,Training
+varga2020a_3set,3,No Testing,Training
+varga2020a_3set,4,No Testing,Training
+varga2020a_3set,5,No Testing,Training
+varga2020a_3set,6,No Testing,Training
+varga2020a_3set,7,No Testing,Reduced Training
+varga2020a_3set,8,No Testing,Training
+varga2020a_3set,9,Post-Intervention,No Training
+varga2020a_5set,-4,Pre-Baseline,No Training
+varga2020a_5set,-3,No Testing,Standardized Training
+varga2020a_5set,-2,No Testing,Standardized Training
+varga2020a_5set,-1,No Testing,Standardized Training
+varga2020a_5set,0,Baseline,No Training
+varga2020a_5set,1,No Testing,Training
+varga2020a_5set,2,No Testing,Training
+varga2020a_5set,3,No Testing,Training
+varga2020a_5set,4,No Testing,Training
+varga2020a_5set,5,No Testing,Training
+varga2020a_5set,6,No Testing,Training
+varga2020a_5set,7,No Testing,Reduced Training
+varga2020a_5set,8,No Testing,Training
+varga2020a_5set,9,Post-Intervention,No Training
+varga2020a_con,-4,Pre-Baseline,No Training
+varga2020a_con,-3,No Testing,Standardized Training
+varga2020a_con,-2,No Testing,Standardized Training
+varga2020a_con,-1,No Testing,Standardized Training
+varga2020a_con,0,Baseline,No Training
+varga2020a_con,1,No Testing,Non-Training Control
+varga2020a_con,2,No Testing,Non-Training Control
+varga2020a_con,3,No Testing,Non-Training Control
+varga2020a_con,4,No Testing,Non-Training Control
+varga2020a_con,5,No Testing,Non-Training Control
+varga2020a_con,6,No Testing,Non-Training Control
+varga2020a_con,7,No Testing,Non-Training Control
+varga2020a_con,8,No Testing,Non-Training Control
+varga2020a_con,9,Post-Intervention,No Training
+delacroix2021a_hl,-4,Pre-Baseline,No Training
+delacroix2021a_hl,-3,No Testing,Standardized Training
+delacroix2021a_hl,-2,No Testing,Standardized Training
+delacroix2021a_hl,-1,No Testing,Standardized Training
+delacroix2021a_hl,0,Baseline,No Training
+delacroix2021a_hl,1,No Testing,Training
+delacroix2021a_hl,2,No Testing,Training
+delacroix2021a_hl,3,No Testing,Training
+delacroix2021a_hl,4,No Testing,Training
+delacroix2021a_hl,5,No Testing,Training
+delacroix2021a_hl,6,No Testing,Training
+delacroix2021a_hl,7,No Testing,Training
+delacroix2021a_hl,8,No Testing,Training
+delacroix2021a_hl,9,No Testing,Training
+delacroix2021a_hl,10,No Testing,Training
+delacroix2021a_hl,11,Post-Intervention,No Training
+delacroix2021a_ll,-4,Pre-Baseline,No Training
+delacroix2021a_ll,-3,No Testing,Standardized Training
+delacroix2021a_ll,-2,No Testing,Standardized Training
+delacroix2021a_ll,-1,No Testing,Standardized Training
+delacroix2021a_ll,0,Baseline,No Training
+delacroix2021a_ll,1,No Testing,Training
+delacroix2021a_ll,2,No Testing,Training
+delacroix2021a_ll,3,No Testing,Training
+delacroix2021a_ll,4,No Testing,Training
+delacroix2021a_ll,5,No Testing,Training
+delacroix2021a_ll,6,No Testing,Training
+delacroix2021a_ll,7,No Testing,Training
+delacroix2021a_ll,8,No Testing,Training
+delacroix2021a_ll,9,No Testing,Training
+delacroix2021a_ll,10,No Testing,Training
+delacroix2021a_ll,11,Post-Intervention,No Training
+uribe2005a_f1,0,Baseline,No Training
+uribe2005a_f1,1,No Testing,Training
+uribe2005a_f1,2,No Testing,Training
+uribe2005a_f1,3,No Testing,Training
+uribe2005a_f1,4,No Testing,Training
+uribe2005a_f1,5,No Testing,Training
+uribe2005a_f1,6,No Testing,Training
+uribe2005a_f1,7,No Testing,Training
+uribe2005a_f1,8,No Testing,Training
+uribe2005a_f1,9,Post-Intervention,No Training
+uribe2005a_f3,0,Baseline,No Training
+uribe2005a_f3,1,No Testing,Training
+uribe2005a_f3,2,No Testing,Training
+uribe2005a_f3,3,No Testing,Training
+uribe2005a_f3,4,No Testing,Training
+uribe2005a_f3,5,No Testing,Training
+uribe2005a_f3,6,No Testing,Training
+uribe2005a_f3,7,No Testing,Training
+uribe2005a_f3,8,No Testing,Training
+uribe2005a_f3,9,Post-Intervention,No Training
+takeda2007a_2set,-1,Pre-Baseline,No Training
+takeda2007a_2set,0,Baseline,No Training
+takeda2007a_2set,1,No Testing,Training
+takeda2007a_2set,2,No Testing,Training
+takeda2007a_2set,3,No Testing,Training
+takeda2007a_2set,4,No Testing,Training
+takeda2007a_2set,5,No Testing,Training
+takeda2007a_2set,6,No Testing,Training
+takeda2007a_2set,7,No Testing,Training
+takeda2007a_2set,8,No Testing,Training
+takeda2007a_2set,9,No Testing,Training
+takeda2007a_2set,10,No Testing,Training
+takeda2007a_2set,11,No Testing,Training
+takeda2007a_2set,12,No Testing,Training
+takeda2007a_2set,13,No Testing,Training
+takeda2007a_2set,14,No Testing,Training
+takeda2007a_2set,15,No Testing,Training
+takeda2007a_2set,16,Post-Intervention,No Training
+takeda2007a_5set,-1,Pre-Baseline,No Training
+takeda2007a_5set,0,Baseline,No Training
+takeda2007a_5set,1,No Testing,Training
+takeda2007a_5set,2,No Testing,Training
+takeda2007a_5set,3,No Testing,Training
+takeda2007a_5set,4,No Testing,Training
+takeda2007a_5set,5,No Testing,Training
+takeda2007a_5set,6,No Testing,Training
+takeda2007a_5set,7,No Testing,Training
+takeda2007a_5set,8,No Testing,Training
+takeda2007a_5set,9,No Testing,Training
+takeda2007a_5set,10,No Testing,Training
+takeda2007a_5set,11,No Testing,Training
+takeda2007a_5set,12,No Testing,Training
+takeda2007a_5set,13,No Testing,Training
+takeda2007a_5set,14,No Testing,Training
+takeda2007a_5set,15,No Testing,Training
+takeda2007a_5set,16,Post-Intervention,No Training
+takeda2007a_con,-1,Pre-Baseline,No Training
+takeda2007a_con,0,Baseline,No Training
+takeda2007a_con,1,No Testing,Non-Training Control
+takeda2007a_con,2,No Testing,Non-Training Control
+takeda2007a_con,3,No Testing,Non-Training Control
+takeda2007a_con,4,No Testing,Non-Training Control
+takeda2007a_con,5,No Testing,Non-Training Control
+takeda2007a_con,6,No Testing,Non-Training Control
+takeda2007a_con,7,No Testing,Non-Training Control
+takeda2007a_con,8,No Testing,Non-Training Control
+takeda2007a_con,9,No Testing,Non-Training Control
+takeda2007a_con,10,No Testing,Non-Training Control
+takeda2007a_con,11,No Testing,Non-Training Control
+takeda2007a_con,12,No Testing,Non-Training Control
+takeda2007a_con,13,No Testing,Non-Training Control
+takeda2007a_con,14,No Testing,Non-Training Control
+takeda2007a_con,15,No Testing,Non-Training Control
+takeda2007a_con,16,Post-Intervention,No Training
+haugen2001a_f1,-1,Pre-Baseline,No Training
+haugen2001a_f1,0,Baseline,No Training
+haugen2001a_f1,1,No Testing,Training
+haugen2001a_f1,2,No Testing,Training
+haugen2001a_f1,3,No Testing,Training
+haugen2001a_f1,4,No Testing,Training
+haugen2001a_f1,5,No Testing,Training
+haugen2001a_f1,6,No Testing,Training
+haugen2001a_f1,7,No Testing,Training
+haugen2001a_f1,8,No Testing,Training
+haugen2001a_f1,9,No Testing,Training
+haugen2001a_f1,10,No Testing,Training
+haugen2001a_f1,11,No Testing,Training
+haugen2001a_f1,12,Post-Intervention,No Training
+haugen2001a_f3,-1,Pre-Baseline,No Training
+haugen2001a_f3,0,Baseline,No Training
+haugen2001a_f3,1,No Testing,Training
+haugen2001a_f3,2,No Testing,Training
+haugen2001a_f3,3,No Testing,Training
+haugen2001a_f3,4,No Testing,Training
+haugen2001a_f3,5,No Testing,Training
+haugen2001a_f3,6,No Testing,Training
+haugen2001a_f3,7,No Testing,Training
+haugen2001a_f3,8,No Testing,Training
+haugen2001a_f3,9,No Testing,Training
+haugen2001a_f3,10,No Testing,Training
+haugen2001a_f3,11,No Testing,Training
+haugen2001a_f3,12,Post-Intervention,No Training
+haugen2001b_1set,0,Baseline,No Training
+haugen2001b_1set,1,No Testing,Training
+haugen2001b_1set,2,No Testing,Training
+haugen2001b_1set,3,No Testing,Training
+haugen2001b_1set,4,Mid-Intervention,Training
+haugen2001b_1set,5,No Testing,Training
+haugen2001b_1set,6,No Testing,Training
+haugen2001b_1set,7,No Testing,Training
+haugen2001b_1set,8,Post-Intervention,No Training
+haugen2001b_3set,0,Baseline,No Training
+haugen2001b_3set,1,No Testing,Training
+haugen2001b_3set,2,No Testing,Training
+haugen2001b_3set,3,No Testing,Training
+haugen2001b_3set,4,Mid-Intervention,Training
+haugen2001b_3set,5,No Testing,Training
+haugen2001b_3set,6,No Testing,Training
+haugen2001b_3set,7,No Testing,Training
+haugen2001b_3set,8,Post-Intervention,No Training
+haugen2001b_5set,0,Baseline,No Training
+haugen2001b_5set,1,No Testing,Training
+haugen2001b_5set,2,No Testing,Training
+haugen2001b_5set,3,No Testing,Training
+haugen2001b_5set,4,Mid-Intervention,Training
+haugen2001b_5set,5,No Testing,Training
+haugen2001b_5set,6,No Testing,Training
+haugen2001b_5set,7,No Testing,Training
+haugen2001b_5set,8,Post-Intervention,No Training
+yilmaz2005a_f1,-1,Pre-Baseline,No Training
+yilmaz2005a_f1,0,Baseline,No Training
+yilmaz2005a_f1,1,No Testing,Training
+yilmaz2005a_f1,2,No Testing,Training
+yilmaz2005a_f1,3,No Testing,Training
+yilmaz2005a_f1,4,No Testing,Training
+yilmaz2005a_f1,5,No Testing,Training
+yilmaz2005a_f1,6,No Testing,Training
+yilmaz2005a_f1,7,No Testing,No Training
+yilmaz2005a_f1,8,No Testing,Training
+yilmaz2005a_f1,9,No Testing,Training
+yilmaz2005a_f1,10,No Testing,Reduced Training
+yilmaz2005a_f1,11,No Testing,Training
+yilmaz2005a_f1,12,Post-Intervention,No Training
+yilmaz2005a_f3,-1,Pre-Baseline,No Training
+yilmaz2005a_f3,0,Baseline,No Training
+yilmaz2005a_f3,1,No Testing,Training
+yilmaz2005a_f3,2,No Testing,Training
+yilmaz2005a_f3,3,No Testing,Training
+yilmaz2005a_f3,4,No Testing,Training
+yilmaz2005a_f3,5,No Testing,Training
+yilmaz2005a_f3,6,No Testing,Training
+yilmaz2005a_f3,7,No Testing,No Training
+yilmaz2005a_f3,8,No Testing,Training
+yilmaz2005a_f3,9,No Testing,Training
+yilmaz2005a_f3,10,No Testing,Reduced Training
+yilmaz2005a_f3,11,No Testing,Training
+yilmaz2005a_f3,12,Post-Intervention,No Training
+ekberg2024a_hl,0,Baseline,No Training
+ekberg2024a_hl,1,No Testing,Training
+ekberg2024a_hl,2,No Testing,Training
+ekberg2024a_hl,3,No Testing,Training
+ekberg2024a_hl,4,No Testing,Training
+ekberg2024a_hl,5,No Testing,Training
+ekberg2024a_hl,6,No Testing,Training
+ekberg2024a_hl,7,No Testing,Training
+ekberg2024a_hl,8,No Testing,No Training
+ekberg2024a_hl,9,No Testing,Training
+ekberg2024a_hl,10,No Testing,Training
+ekberg2024a_hl,11,No Testing,Training
+ekberg2024a_hl,12,No Testing,Training
+ekberg2024a_hl,13,No Testing,Training
+ekberg2024a_hl,14,Post-Intervention,No Training
+ekberg2024a_ll,0,Baseline,No Training
+ekberg2024a_ll,1,No Testing,Training
+ekberg2024a_ll,2,No Testing,Training
+ekberg2024a_ll,3,No Testing,Training
+ekberg2024a_ll,4,No Testing,Training
+ekberg2024a_ll,5,No Testing,Training
+ekberg2024a_ll,6,No Testing,Training
+ekberg2024a_ll,7,No Testing,Training
+ekberg2024a_ll,8,No Testing,No Training
+ekberg2024a_ll,9,No Testing,Training
+ekberg2024a_ll,10,No Testing,Training
+ekberg2024a_ll,11,No Testing,Training
+ekberg2024a_ll,12,No Testing,Training
+ekberg2024a_ll,13,No Testing,Training
+ekberg2024a_ll,14,Post-Intervention,No Training
+ekberg2024a_con,0,Baseline,No Training
+ekberg2024a_con,1,No Testing,Non-Training Control
+ekberg2024a_con,2,No Testing,Non-Training Control
+ekberg2024a_con,3,No Testing,Non-Training Control
+ekberg2024a_con,4,No Testing,Non-Training Control
+ekberg2024a_con,5,No Testing,Non-Training Control
+ekberg2024a_con,6,No Testing,Non-Training Control
+ekberg2024a_con,7,No Testing,Non-Training Control
+ekberg2024a_con,8,No Testing,Non-Training Control
+ekberg2024a_con,9,No Testing,Non-Training Control
+ekberg2024a_con,10,No Testing,Non-Training Control
+ekberg2024a_con,11,No Testing,Non-Training Control
+ekberg2024a_con,12,No Testing,Non-Training Control
+ekberg2024a_con,13,No Testing,Non-Training Control
+ekberg2024a_con,14,Post-Intervention,No Training
+petrakis2007a_2set,-4,Pre-Baseline,No Training
+petrakis2007a_2set,-3,No Testing,Standardized Training
+petrakis2007a_2set,-2,No Testing,Standardized Training
+petrakis2007a_2set,-1,No Testing,Standardized Training
+petrakis2007a_2set,0,Baseline,No Training
+petrakis2007a_2set,1,No Testing,Training
+petrakis2007a_2set,2,No Testing,Training
+petrakis2007a_2set,3,No Testing,Training
+petrakis2007a_2set,4,Mid-Intervention,Training
+petrakis2007a_2set,5,No Testing,No Training
+petrakis2007a_2set,6,No Testing,Training
+petrakis2007a_2set,7,No Testing,Reduced Training
+petrakis2007a_2set,8,No Testing,Training
+petrakis2007a_2set,9,Post-Intervention,No Training
+petrakis2007a_5set,-4,Pre-Baseline,No Training
+petrakis2007a_5set,-3,No Testing,Standardized Training
+petrakis2007a_5set,-2,No Testing,Standardized Training
+petrakis2007a_5set,-1,No Testing,Standardized Training
+petrakis2007a_5set,0,Baseline,No Training
+petrakis2007a_5set,1,No Testing,Training
+petrakis2007a_5set,2,No Testing,Training
+petrakis2007a_5set,3,No Testing,Training
+petrakis2007a_5set,4,Mid-Intervention,Training
+petrakis2007a_5set,5,No Testing,No Training
+petrakis2007a_5set,6,No Testing,Training
+petrakis2007a_5set,7,No Testing,Reduced Training
+petrakis2007a_5set,8,No Testing,Training
+petrakis2007a_5set,9,Post-Intervention,No Training
+ekberg2010a_hl,0,Baseline,No Training
+ekberg2010a_hl,1,No Testing,Training
+ekberg2010a_hl,2,No Testing,Training
+ekberg2010a_hl,3,No Testing,Training
+ekberg2010a_hl,4,No Testing,Training
+ekberg2010a_hl,5,No Testing,Training
+ekberg2010a_hl,6,No Testing,Training
+ekberg2010a_hl,7,No Testing,Training
+ekberg2010a_hl,8,No Testing,Training
+ekberg2010a_hl,9,No Testing,Training
+ekberg2010a_hl,10,No Testing,Training
+ekberg2010a_hl,11,Post-Intervention,No Training
+ekberg2010a_ll,0,Baseline,No Training
+ekberg2010a_ll,1,No Testing,Training
+ekberg2010a_ll,2,No Testing,Training
+ekberg2010a_ll,3,No Testing,Training
+ekberg2010a_ll,4,No Testing,Training
+ekberg2010a_ll,5,No Testing,Training
+ekberg2010a_ll,6,No Testing,Training
+ekberg2010a_ll,7,No Testing,Training
+ekberg2010a_ll,8,No Testing,Training
+ekberg2010a_ll,9,No Testing,Training
+ekberg2010a_ll,10,No Testing,Training
+ekberg2010a_ll,11,Post-Intervention,No Training
+laurent2024a_fail,0,Baseline,No Training
+laurent2024a_fail,1,No Testing,Training
+laurent2024a_fail,2,No Testing,Training
+laurent2024a_fail,3,No Testing,Training
+laurent2024a_fail,4,No Testing,Training
+laurent2024a_fail,5,Mid-Intervention,Training
+laurent2024a_fail,6,No Testing,Training
+laurent2024a_fail,7,No Testing,Training
+laurent2024a_fail,8,No Testing,Training
+laurent2024a_fail,9,No Testing,Training
+laurent2024a_fail,10,No Testing,Training
+laurent2024a_fail,11,Post-Intervention,No Training
+laurent2024a_rir3,0,Baseline,No Training
+laurent2024a_rir3,1,No Testing,Training
+laurent2024a_rir3,2,No Testing,Training
+laurent2024a_rir3,3,No Testing,Training
+laurent2024a_rir3,4,No Testing,Training
+laurent2024a_rir3,5,Mid-Intervention,Training
+laurent2024a_rir3,6,No Testing,Training
+laurent2024a_rir3,7,No Testing,Training
+laurent2024a_rir3,8,No Testing,Training
+laurent2024a_rir3,9,No Testing,Training
+laurent2024a_rir3,10,No Testing,Training
+laurent2024a_rir3,11,Post-Intervention,No Training
+yilmaz1999a_2set,-1,Pre-Baseline,No Training
+yilmaz1999a_2set,0,Baseline,No Training
+yilmaz1999a_2set,1,No Testing,Training
+yilmaz1999a_2set,2,No Testing,Training
+yilmaz1999a_2set,3,No Testing,Training
+yilmaz1999a_2set,4,No Testing,Training
+yilmaz1999a_2set,5,No Testing,Training
+yilmaz1999a_2set,6,No Testing,Training
+yilmaz1999a_2set,7,No Testing,Training
+yilmaz1999a_2set,8,No Testing,Training
+yilmaz1999a_2set,9,No Testing,Training
+yilmaz1999a_2set,10,No Testing,Training
+yilmaz1999a_2set,11,No Testing,Training
+yilmaz1999a_2set,12,No Testing,Training
+yilmaz1999a_2set,13,Post-Intervention,No Training
+yilmaz1999a_5set,-1,Pre-Baseline,No Training
+yilmaz1999a_5set,0,Baseline,No Training
+yilmaz1999a_5set,1,No Testing,Training
+yilmaz1999a_5set,2,No Testing,Training
+yilmaz1999a_5set,3,No Testing,Training
+yilmaz1999a_5set,4,No Testing,Training
+yilmaz1999a_5set,5,No Testing,Training
+yilmaz1999a_5set,6,No Testing,Training
+yilmaz1999a_5set,7,No Testing,Training
+yilmaz1999a_5set,8,No Testing,Training
+yilmaz1999a_5set,9,No Testing,Training
+yilmaz1999a_5set,10,No Testing,Training
+yilmaz1999a_5set,11,No Testing,Training
+yilmaz1999a_5set,12,No Testing,Training
+yilmaz1999a_5set,13,Post-Intervention,No Training
+rosales2018a_fail,0,Baseline,No Training
+rosales2018a_fail,1,No Testing,Training
+rosales2018a_fail,2,No Testing,Training
+rosales2018a_fail,3,No Testing,Training
+rosales2018a_fail,4,No Testing,Training
+rosales2018a_fail,5,No Testing,Training
+rosales2018a_fail,6,No Testing,Training
+rosales2018a_fail,7,No Testing,Training
+rosales2018a_fail,8,No Testing,Training
+rosales2018a_fail,9,No Testing,Training
+rosales2018a_fail,10,No Testing,Training
+rosales2018a_fail,11,Post-Intervention,No Training
+rosales2018a_rir1,0,Baseline,No Training
+rosales2018a_rir1,1,No Testing,Training
+rosales2018a_rir1,2,No Testing,Training
+rosales2018a_rir1,3,No Testing,Training
+rosales2018a_rir1,4,No Testing,Training
+rosales2018a_rir1,5,No Testing,Training
+rosales2018a_rir1,6,No Testing,Training
+rosales2018a_rir1,7,No Testing,Training
+rosales2018a_rir1,8,No Testing,Training
+rosales2018a_rir1,9,No Testing,Training
+rosales2018a_rir1,10,No Testing,Training
+rosales2018a_rir1,11,Post-Intervention,No Training
+rosales2018a_rir3,0,Baseline,No Training
+rosales2018a_rir3,1,No Testing,Training
+rosales2018a_rir3,2,No Testing,Training
+rosales2018a_rir3,3,No Testing,Training
+rosales2018a_rir3,4,No Testing,Training
+rosales2018a_rir3,5,No Testing,Training
+rosales2018a_rir3,6,No Testing,Training
+rosales2018a_rir3,7,No Testing,Training
+rosales2018a_rir3,8,No Testing,Training
+rosales2018a_rir3,9,No Testing,Training
+rosales2018a_rir3,10,No Testing,Training
+rosales2018a_rir3,11,Post-Intervention,No Training
+rosales2018a_con,0,Baseline,No Training
+rosales2018a_con,1,No Testing,Non-Training Control
+rosales2018a_con,2,No Testing,Non-Training Control
+rosales2018a_con,3,No Testing,Non-Training Control
+rosales2018a_con,4,No Testing,Non-Training Control
+rosales2018a_con,5,No Testing,Non-Training Control
+rosales2018a_con,6,No Testing,Non-Training Control
+rosales2018a_con,7,No Testing,Non-Training Control
+rosales2018a_con,8,No Testing,Non-Training Control
+rosales2018a_con,9,No Testing,Non-Training Control
+rosales2018a_con,10,No Testing,Non-Training Control
+rosales2018a_con,11,Post-Intervention,No Training
+lindqvist2010a_hl,0,Baseline,No Training
+lindqvist2010a_hl,1,No Testing,Training
+lindqvist2010a_hl,2,No Testing,Training
+lindqvist2010a_hl,3,No Testing,Training
+lindqvist2010a_hl,4,No Testing,Training
+lindqvist2010a_hl,5,Mid-Intervention,Training
+lindqvist2010a_hl,6,No Testing,Training
+lindqvist2010a_hl,7,No Testing,Training
+lindqvist2010a_hl,8,No Testing,Training
+lindqvist2010a_hl,9,No Testing,Training
+lindqvist2010a_hl,10,No Testing,Training
+lindqvist2010a_hl,11,Post-Intervention,No Training
+lindqvist2010a_ll,0,Baseline,No Training
+lindqvist2010a_ll,1,No Testing,Training
+lindqvist2010a_ll,2,No Testing,Training
+lindqvist2010a_ll,3,No Testing,Training
+lindqvist2010a_ll,4,No Testing,Training
+lindqvist2010a_ll,5,Mid-Intervention,Training
+lindqvist2010a_ll,6,No Testing,Training
+lindqvist2010a_ll,7,No Testing,Training
+lindqvist2010a_ll,8,No Testing,Training
+lindqvist2010a_ll,9,No Testing,Training
+lindqvist2010a_ll,10,No Testing,Training
+lindqvist2010a_ll,11,Post-Intervention,No Training
+lindqvist2010a_con,0,Baseline,No Training
+lindqvist2010a_con,1,No Testing,Non-Training Control
+lindqvist2010a_con,2,No Testing,Non-Training Control
+lindqvist2010a_con,3,No Testing,Non-Training Control
+lindqvist2010a_con,4,No Testing,Non-Training Control
+lindqvist2010a_con,5,Mid-Intervention,Non-Training Control
+lindqvist2010a_con,6,No Testing,Non-Training Control
+lindqvist2010a_con,7,No Testing,Non-Training Control
+lindqvist2010a_con,8,No Testing,Non-Training Control
+lindqvist2010a_con,9,No Testing,Non-Training Control
+lindqvist2010a_con,10,No Testing,Non-Training Control
+lindqvist2010a_con,11,Post-Intervention,No Training
+quinlan2011a_2set,-1,Pre-Baseline,No Training
+quinlan2011a_2set,0,Baseline,No Training
+quinlan2011a_2set,1,No Testing,Training
+quinlan2011a_2set,2,No Testing,Training
+quinlan2011a_2set,3,No Testing,Training
+quinlan2011a_2set,4,No Testing,Training
+quinlan2011a_2set,5,No Testing,Training
+quinlan2011a_2set,6,No Testing,Training
+quinlan2011a_2set,7,No Testing,Training
+quinlan2011a_2set,8,No Testing,Training
+quinlan2011a_2set,9,No Testing,Training
+quinlan2011a_2set,10,No Testing,Training
+quinlan2011a_2set,11,No Testing,Training
+quinlan2011a_2set,12,No Testing,Training
+quinlan2011a_2set,13,No Testing,Training
+quinlan2011a_2set,14,No Testing,Training
+quinlan2011a_2set,15,Post-Intervention,No Training
+quinlan2011a_5set,-1,Pre-Baseline,No Training
+quinlan2011a_5set,0,Baseline,No Training
+quinlan2011a_5set,1,No Testing,Training
+quinlan2011a_5set,2,No Testing,Training
+quinlan2011a_5set,3,No Testing,Training
+quinlan2011a_5set,4,No Testing,Training
+quinlan2011a_5set,5,No Testing,Training
+quinlan2011a_5set,6,No Testing,Training
+quinlan2011a_5set,7,No Testing,Training
+quinlan2011a_5set,8,No Testing,Training
+quinlan2011a_5set,9,No Testing,Training
+quinlan2011a_5set,10,No Testing,Training
+quinlan2011a_5set,11,No Testing,Training
+quinlan2011a_5set,12,No Testing,Training
+quinlan2011a_5set,13,No Testing,Training
+quinlan2011a_5set,14,No Testing,Training
+quinlan2011a_5set,15,Post-Intervention,No Training
+quinlan2011a_con,-1,Pre-Baseline,No Training
+quinlan2011a_con,0,Baseline,No Training
+quinlan2011a_con,1,No Testing,Non-Training Control
+quinlan2011a_con,2,No Testing,Non-Training Control
+quinlan2011a_con,3,No Testing,Non-Training Control
+quinlan2011a_con,4,No Testing,Non-Training Control
+quinlan2011a_con,5,No Testing,Non-Training Control
+quinlan2011a_con,6,No Testing,Non-Training Control
+quinlan2011a_con,7,No Testing,Non-Training Control
+quinlan2011a_con,8,No Testing,Non-Training Control
+quinlan2011a_con,9,No Testing,Non-Training Control
+quinlan2011a_con,10,No Testing,Non-Training Control
+quinlan2011a_con,11,No Testing,Non-Training Control
+quinlan2011a_con,12,No Testing,Non-Training Control
+quinlan2011a_con,13,No Testing,Non-Training Control
+quinlan2011a_con,14,No Testing,Non-Training Control
+quinlan2011a_con,15,Post-Intervention,No Training
+delacroix2018a_1set,-1,Pre-Baseline,No Training
+delacroix2018a_1set,0,Baseline,No Training
+delacroix2018a_1set,1,No Testing,Training
+delacroix2018a_1set,2,No Testing,Training
+delacroix2018a_1set,3,No Testing,Training
+delacroix2018a_1set,4,No Testing,Training
+delacroix2018a_1set,5,No Testing,Training
+delacroix2018a_1set,6,No Testing,No Training
+delacroix2018a_1set,7,No Testing,Training
+delacroix2018a_1set,8,No Testing,Training
+delacroix2018a_1set,9,No Testing,Training
+delacroix2018a_1set,10,No Testing,Training
+delacroix2018a_1set,11,Post-Intervention,No Training
+delacroix2018a_3set,-1,Pre-Baseline,No Training
+delacroix2018a_3set,0,Baseline,No Training
+delacroix2018a_3set,1,No Testing,Training
+delacroix2018a_3set,2,No Testing,Training
+delacroix2018a_3set,3,No Testing,Training
+delacroix2018a_3set,4,No Testing,Training
+delacroix2018a_3set,5,No Testing,Training
+delacroix2018a_3set,6,No Testing,No Training
+delacroix2018a_3set,7,No Testing,Training
+delacroix2018a_3set,8,No Testing,Training
+delacroix2018a_3set,9,No Testing,Training
+delacroix2018a_3set,10,No Testing,Training
+delacroix2018a_3set,11,Post-Intervention,No Training
+delacroix2018a_5set,-1,Pre-Baseline,No Training
+delacroix2018a_5set,0,Baseline,No Training
+delacroix2018a_5set,1,No Testing,Training
+delacroix2018a_5set,2,No Testing,Training
+delacroix2018a_5set,3,No Testing,Training
+delacroix2018a_5set,4,No Testing,Training
+delacroix2018a_5set,5,No Testing,Training
+delacroix2018a_5set,6,No Testing,No Training
+delacroix2018a_5set,7,No Testing,Training
+delacroix2018a_5set,8,No Testing,Training
+delacroix2018a_5set,9,No Testing,Training
+delacroix2018a_5set,10,No Testing,Training
+delacroix2018a_5set,11,Post-Intervention,No Training
+moreau2010a_fail,0,Baseline,No Training
+moreau2010a_fail,1,No Testing,Training
+moreau2010a_fail,2,No Testing,Training
+moreau2010a_fail,3,No Testing,Training
+moreau2010a_fail,4,No Testing,Training
+moreau2010a_fail,5,No Testing,Training
+moreau2010a_fail,6,No Testing,Training
+moreau2010a_fail,7,No Testing,Training
+moreau2010a_fail,8,No Testing,Training
+moreau2010a_fail,9,No Testing,Training
+moreau2010a_fail,10,Post-Intervention,No Training
+moreau2010a_rir3,0,Baseline,No Training
+moreau2010a_rir3,1,No Testing,Training
+moreau2010a_rir3,2,No Testing,Training
+moreau2010a_rir3,3,No Testing,Training
+moreau2010a_rir3,4,No Testing,Training
+moreau2010a_rir3,5,No Testing,Training
+moreau2010a_rir3,6,No Testing,Training
+moreau2010a_rir3,7,No Testing,Training
+moreau2010a_rir3,8,No Testing,Training
+moreau2010a_rir3,9,No Testing,Training
+moreau2010a_rir3,10,Post-Intervention,No Training
+jansen2011a_fail,0,Baseline,No Training
+jansen2011a_fail,1,No Testing,Training
+jansen2011a_fail,2,No Testing,Training
+jansen2011a_fail,3,No Testing,Training
+jansen2011a_fail,4,No Testing,Training
+jansen2011a_fail,5,No Testing,Training
+jansen2011a_fail,6,No Testing,Training
+jansen2011a_fail,7,Mid-Intervention,Training
+jansen2011a_fail,8,No Testing,Training
+jansen2011a_fail,9,No Testing,Training
+jansen2011a_fail,10,No Testing,Training
+jansen2011a_fail,11,No Testing,Training
+jansen2011a_fail,12,No Testing,Training
+jansen2011a_fail,13,No Testing,Training
+jansen2011a_fail,14,No Testing,Training
+jansen2011a_fail,15,Post-Intervention,No Training
+jansen2011a_rir3,0,Baseline,No Training
+jansen2011a_rir3,1,No Testing,Training
+jansen2011a_rir3,2,No Testing,Training
+jansen2011a_rir3,3,No Testing,Training
+jansen2011a_rir3,4,No Testing,Training
+jansen2011a_rir3,5,No Testing,Training
+jansen2011a_rir3,6,No Testing,Training
+jansen2011a_rir3,7,Mid-Intervention,Training
+jansen2011a_rir3,8,No Testing,Training
+jansen2011a_rir3,9,No Testing,Training
+jansen2011a_rir3,10,No Testing,Training
+jansen2011a_rir3,11,No Testing,Training
+jansen2011a_rir3,12,No Testing,Training
+jansen2011a_rir3,13,No Testing,Training
+jansen2011a_rir3,14,No Testing,Training
+jansen2011a_rir3,15,Post-Intervention,No Training
+jansen2011a_con,0,Baseline,No Training
+jansen2011a_con,1,No Testing,Non-Training Control
+jansen2011a_con,2,No Testing,Non-Training Control
+jansen2011a_con,3,No Testing,Non-Training Control
+jansen2011a_con,4,No Testing,Non-Training Control
+jansen2011a_con,5,No Testing,Non-Training Control
+jansen2011a_con,6,No Testing,Non-Training Control
+jansen2011a_con,7,Mid-Intervention,Non-Training Control
+jansen2011a_con,8,No Testing,Non-Training Control
+jansen2011a_con,9,No Testing,Non-Training Control
+jansen2011a_con,10,No Testing,Non-Training Control
+jansen2011a_con,11,No Testing,Non-Training Control
+jansen2011a_con,12,No Testing,Non-Training Control
+jansen2011a_con,13,No Testing,Non-Training Control
+jansen2011a_con,14,No Testing,Non-Training Control
+jansen2011a_con,15,Post-Intervention,No Training
+varga2015a_hl,-1,Pre-Baseline,No Training
+varga2015a_hl,0,Baseline,No Training
+varga2015a_hl,1,No Testing,Training
+varga2015a_hl,2,No Testing,Training
+varga2015a_hl,3,No Testing,Training
+varga2015a_hl,4,No Testing,Training
+varga2015a_hl,5,No Testing,Training
+varga2015a_hl,6,No Testing,Training
+varga2015a_hl,7,No Testing,Training
+varga2015a_hl,8,No Testing,Training
+varga2015a_hl,9,Post-Intervention,No Training
+varga2015a_ll,-1,Pre-Baseline,No Training
+varga2015a_ll,0,Baseline,No Training
+varga2015a_ll,1,No Testing,Training
+varga2015a_ll,2,No Testing,Training
+varga2015a_ll,3,No Testing,Training
+varga2015a_ll,4,No Testing,Training
+varga2015a_ll,5,No Testing,Training
+varga2015a_ll,6,No Testing,Training
+varga2015a_ll,7,No Testing,Training
+varga2015a_ll,8,No Testing,Training
+varga2015a_ll,9,Post-Intervention,No Training
+fairbanks2004a_f1,0,Baseline,No Training
+fairbanks2004a_f1,1,No Testing,Training
+fairbanks2004a_f1,2,No Testing,Training
+fairbanks2004a_f1,3,No Testing,Training
+fairbanks2004a_f1,4,No Testing,Training
+fairbanks2004a_f1,5,No Testing,Training
+fairbanks2004a_f1,6,No Testing,Training
+fairbanks2004a_f1,7,No Testing,Training
+fairbanks2004a_f1,8,No Testing,No Training
+fairbanks2004a_f1,9,No Testing,Training
+fairbanks2004a_f1,10,No Testing,Training
+fairbanks2004a_f1,11,No Testing,Training
+fairbanks2004a_f1,12,No Testing,Training
+fairbanks2004a_f1,13,No Testing,Reduced Training
+fairbanks2004a_f1,14,No Testing,Training
+fairbanks2004a_f1,15,Post-Intervention,No Training
+fairbanks2004a_f2,0,Baseline,No Training
+fairbanks2004a_f2,1,No Testing,Training
+fairbanks2004a_f2,2,No Testing,Training
+fairbanks2004a_f2,3,No Testing,Training
+fairbanks2004a_f2,4,No Testing,Training
+fairbanks2004a_f2,5,No Testing,Training
+fairbanks2004a_f2,6,No Testing,Training
+fairbanks2004a_f2,7,No Testing,Training
+fairbanks2004a_f2,8,No Testing,No Training
+fairbanks2004a_f2,9,No Testing,Training
+fairbanks2004a_f2,10,No Testing,Training
+fairbanks2004a_f2,11,No Testing,Training
+fairbanks2004a_f2,12,No Testing,Training
+fairbanks2004a_f2,13,No Testing,Reduced Training
+fairbanks2004a_f2,14,No Testing,Training
+fairbanks2004a_f2,15,Post-Intervention,No Training
+fairbanks2004a_f3,0,Baseline,No Training
+fairbanks2004a_f3,1,No Testing,Training
+fairbanks2004a_f3,2,No Testing,Training
+fairbanks2004a_f3,3,No Testing,Training
+fairbanks2004a_f3,4,No Testing,Training
+fairbanks2004a_f3,5,No Testing,Training
+fairbanks2004a_f3,6,No Testing,Training
+fairbanks2004a_f3,7,No Testing,Training
+fairbanks2004a_f3,8,No Testing,No Training
+fairbanks2004a_f3,9,No Testing,Training
+fairbanks2004a_f3,10,No Testing,Training
+fairbanks2004a_f3,11,No Testing,Training
+fairbanks2004a_f3,12,No Testing,Training
+fairbanks2004a_f3,13,No Testing,Reduced Training
+fairbanks2004a_f3,14,No Testing,Training
+fairbanks2004a_f3,15,Post-Intervention,No Training
+fairbanks2004a_con,0,Baseline,No Training
+fairbanks2004a_con,1,No Testing,Non-Training Control
+fairbanks2004a_con,2,No Testing,Non-Training Control
+fairbanks2004a_con,3,No Testing,Non-Training Control
+fairbanks2004a_con,4,No Testing,Non-Training Control
+fairbanks2004a_con,5,No Testing,Non-Training Control
+fairbanks2004a_con,6,No Testing,Non-Training Control
+fairbanks2004a_con,7,No Testing,Non-Training Control
+fairbanks2004a_con,8,No Testing,Non-Training Control
+fairbanks2004a_con,9,No Testing,Non-Training Control
+fairbanks2004a_con,10,No Testing,Non-Training Control
+fairbanks2004a_con,11,No Testing,Non-Training Control
+fairbanks2004a_con,12,No Testing,Non-Training Control
+fairbanks2004a_con,13,No Testing,Non-Training Control
+fairbanks2004a_con,14,No Testing,Non-Training Control
+fairbanks2004a_con,15,Post-Intervention,No Training
+jansen2021a_fail,-1,Pre-Baseline,No Training
+jansen2021a_fail,0,Baseline,No Training
+jansen2021a_fail,1,No Testing,Training
+jansen2021a_fail,2,No Testing,Training
+jansen2021a_fail,3,No Testing,Training
+jansen2021a_fail,4,No Testing,Training
+jansen2021a_fail,5,No Testing,Training
+jansen2021a_fail,6,No Testing,Training
+jansen2021a_fail,7,Mid-Intervention,Training
+jansen2021a_fail,8,No Testing,Training
+jansen2021a_fail,9,No Testing,Training
+jansen2021a_fail,10,No Testing,Training
+jansen2021a_fail,11,No Testing,Training
+jansen2021a_fail,12,No Testing,Training
+jansen2021a_fail,13,No Testing,Training
+jansen2021a_fail,14,Post-Intervention,No Training
+jansen2021a_rir3,-1,Pre-Baseline,No Training
+jansen2021a_rir3,0,Baseline,No Training
+jansen2021a_rir3,1,No Testing,Training
+jansen2021a_rir3,2,No Testing,Training
+jansen2021a_rir3,3,No Testing,Training
+jansen2021a_rir3,4,No Testing,Training
+jansen2021a_rir3,5,No Testing,Training
+jansen2021a_rir3,6,No Testing,Training
+jansen2021a_rir3,7,Mid-Intervention,Training
+jansen2021a_rir3,8,No Testing,Training
+jansen2021a_rir3,9,No Testing,Training
+jansen2021a_rir3,10,No Testing,Training
+jansen2021a_rir3,11,No Testing,Training
+jansen2021a_rir3,12,No Testing,Training
+jansen2021a_rir3,13,No Testing,Training
+jansen2021a_rir3,14,Post-Intervention,No Training
+gallardo2024a_f1,0,Baseline,No Training
+gallardo2024a_f1,1,No Testing,Training
+gallardo2024a_f1,2,No Testing,Training
+gallardo2024a_f1,3,No Testing,Training
+gallardo2024a_f1,4,No Testing,Training
+gallardo2024a_f1,5,No Testing,Training
+gallardo2024a_f1,6,No Testing,Training
+gallardo2024a_f1,7,No Testing,Training
+gallardo2024a_f1,8,No Testing,Training
+gallardo2024a_f1,9,No Testing,Training
+gallardo2024a_f1,10,No Testing,Training
+gallardo2024a_f1,11,No Testing,Training
+gallardo2024a_f1,12,No Testing,Training
+gallardo2024a_f1,13,No Testing,Training
+gallardo2024a_f1,14,No Testing,Training
+gallardo2024a_f1,15,Post-Intervention,No Training
+gallardo2024a_f3,0,Baseline,No Training
+gallardo2024a_f3,1,No Testing,Training
+gallardo2024a_f3,2,No Testing,Training
+gallardo2024a_f3,3,No Testing,Training
+gallardo2024a_f3,4,No Testing,Training
+gallardo2024a_f3,5,No Testing,Training
+gallardo2024a_f3,6,No Testing,Training
+gallardo2024a_f3,7,No Testing,Training
+gallardo2024a_f3,8,No Testing,Training
+gallardo2024a_f3,9,No Testing,Training
+gallardo2024a_f3,10,No Testing,Training
+gallardo2024a_f3,11,No Testing,Training
+gallardo2024a_f3,12,No Testing,Training
+gallardo2024a_f3,13,No Testing,Training
+gallardo2024a_f3,14,No Testing,Training
+gallardo2024a_f3,15,Post-Intervention,No Training
+mwangi2026a_2set,-3,No Testing,Standardized Training
+mwangi2026a_2set,-2,No Testing,Standardized Training
+mwangi2026a_2set,-1,No Testing,Standardized Training
+mwangi2026a_2set,0,Baseline,No Training
+mwangi2026a_2set,1,No Testing,Training
+mwangi2026a_2set,2,No Testing,Training
+mwangi2026a_2set,3,No Testing,Training
+mwangi2026a_2set,4,No Testing,Training
+mwangi2026a_2set,5,No Testing,Training
+mwangi2026a_2set,6,No Testing,Training
+mwangi2026a_2set,7,No Testing,Training
+mwangi2026a_2set,8,No Testing,Training
+mwangi2026a_2set,9,Post-Intervention,No Training
+mwangi2026a_5set,-3,No Testing,Standardized Training
+mwangi2026a_5set,-2,No Testing,Standardized Training
+mwangi2026a_5set,-1,No Testing,Standardized Training
+mwangi2026a_5set,0,Baseline,No Training
+mwangi2026a_5set,1,No Testing,Training
+mwangi2026a_5set,2,No Testing,Training
+mwangi2026a_5set,3,No Testing,Training
+mwangi2026a_5set,4,No Testing,Training
+mwangi2026a_5set,5,No Testing,Training
+mwangi2026a_5set,6,No Testing,Training
+mwangi2026a_5set,7,No Testing,Training
+mwangi2026a_5set,8,No Testing,Training
+mwangi2026a_5set,9,Post-Intervention,No Training
+petrakis2016a_hl,0,Baseline,No Training
+petrakis2016a_hl,1,No Testing,Training
+petrakis2016a_hl,2,No Testing,Training
+petrakis2016a_hl,3,No Testing,Training
+petrakis2016a_hl,4,No Testing,Training
+petrakis2016a_hl,5,No Testing,Training
+petrakis2016a_hl,6,No Testing,No Training
+petrakis2016a_hl,7,No Testing,Training
+petrakis2016a_hl,8,No Testing,Training
+petrakis2016a_hl,9,No Testing,Training
+petrakis2016a_hl,10,Post-Intervention,No Training
+petrakis2016a_ml,0,Baseline,No Training
+petrakis2016a_ml,1,No Testing,Training
+petrakis2016a_ml,2,No Testing,Training
+petrakis2016a_ml,3,No Testing,Training
+petrakis2016a_ml,4,No Testing,Training
+petrakis2016a_ml,5,No Testing,Training
+petrakis2016a_ml,6,No Testing,No Training
+petrakis2016a_ml,7,No Testing,Training
+petrakis2016a_ml,8,No Testing,Training
+petrakis2016a_ml,9,No Testing,Training
+petrakis2016a_ml,10,Post-Intervention,No Training
+petrakis2016a_ll,0,Baseline,No Training
+petrakis2016a_ll,1,No Testing,Training
+petrakis2016a_ll,2,No Testing,Training
+petrakis2016a_ll,3,No Testing,Training
+petrakis2016a_ll,4,No Testing,Training
+petrakis2016a_ll,5,No Testing,Training
+petrakis2016a_ll,6,No Testing,No Training
+petrakis2016a_ll,7,No Testing,Training
+petrakis2016a_ll,8,No Testing,Training
+petrakis2016a_ll,9,No Testing,Training
+petrakis2016a_ll,10,Post-Intervention,No Training
+petrakis2016a_con,0,Baseline,No Training
+petrakis2016a_con,1,No Testing,Non-Training Control
+petrakis2016a_con,2,No Testing,Non-Training Control
+petrakis2016a_con,3,No Testing,Non-Training Control
+petrakis2016a_con,4,No Testing,Non-Training Control
+petrakis2016a_con,5,No Testing,Non-Training Control
+petrakis2016a_con,6,No Testing,Non-Training Control
+petrakis2016a_con,7,No Testing,Non-Training Control
+petrakis2016a_con,8,No Testing,Non-Training Control
+petrakis2016a_con,9,No Testing,Non-Training Control
+petrakis2016a_con,10,Post-Intervention,No Training
+ekberg2013b_fail,0,Baseline,No Training
+ekberg2013b_fail,1,No Testing,Training
+ekberg2013b_fail,2,No Testing,Training
+ekberg2013b_fail,3,No Testing,Training
+ekberg2013b_fail,4,No Testing,Training
+ekberg2013b_fail,5,No Testing,Training
+ekberg2013b_fail,6,No Testing,Training
+ekberg2013b_fail,7,No Testing,Training
+ekberg2013b_fail,8,No Testing,Training
+ekberg2013b_fail,9,No Testing,Training
+ekberg2013b_fail,10,Post-Intervention,No Training
+ekberg2013b_rir3,0,Baseline,No Training
+ekberg2013b_rir3,1,No Testing,Training
+ekberg2013b_rir3,2,No Testing,Training
+ekberg2013b_rir3,3,No Testing,Training
+ekberg2013b_rir3,4,No Testing,Training
+ekberg2013b_rir3,5,No Testing,Training
+ekberg2013b_rir3,6,No Testing,Training
+ekberg2013b_rir3,7,No Testing,Training
+ekberg2013b_rir3,8,No Testing,Training
+ekberg2013b_rir3,9,No Testing,Training
+ekberg2013b_rir3,10,Post-Intervention,No Training
+ekberg2013b_con,0,Baseline,No Training
+ekberg2013b_con,1,No Testing,Non-Training Control
+ekberg2013b_con,2,No Testing,Non-Training Control
+ekberg2013b_con,3,No Testing,Non-Training Control
+ekberg2013b_con,4,No Testing,Non-Training Control
+ekberg2013b_con,5,No Testing,Non-Training Control
+ekberg2013b_con,6,No Testing,Non-Training Control
+ekberg2013b_con,7,No Testing,Non-Training Control
+ekberg2013b_con,8,No Testing,Non-Training Control
+ekberg2013b_con,9,No Testing,Non-Training Control
+ekberg2013b_con,10,Post-Intervention,No Training
+brennan2019a_hl,-1,Pre-Baseline,No Training
+brennan2019a_hl,0,Baseline,No Training
+brennan2019a_hl,1,No Testing,Training
+brennan2019a_hl,2,No Testing,Training
+brennan2019a_hl,3,No Testing,Training
+brennan2019a_hl,4,No Testing,Training
+brennan2019a_hl,5,No Testing,Training
+brennan2019a_hl,6,No Testing,Training
+brennan2019a_hl,7,No Testing,Training
+brennan2019a_hl,8,No Testing,No Training
+brennan2019a_hl,9,No Testing,Training
+brennan2019a_hl,10,No Testing,Training
+brennan2019a_hl,11,No Testing,Training
+brennan2019a_hl,12,No Testing,Training
+brennan2019a_hl,13,No Testing,Training
+brennan2019a_hl,14,No Testing,Training
+brennan2019a_hl,15,Post-Intervention,No Training
+brennan2019a_ll,-1,Pre-Baseline,No Training
+brennan2019a_ll,0,Baseline,No Training
+brennan2019a_ll,1,No Testing,Training
+brennan2019a_ll,2,No Testing,Training
+brennan2019a_ll,3,No Testing,Training
+brennan2019a_ll,4,No Testing,Training
+brennan2019a_ll,5,No Testing,Training
+brennan2019a_ll,6,No Testing,Training
+brennan2019a_ll,7,No Testing,Training
+brennan2019a_ll,8,No Testing,No Training
+brennan2019a_ll,9,No Testing,Training
+brennan2019a_ll,10,No Testing,Training
+brennan2019a_ll,11,No Testing,Training
+brennan2019a_ll,12,No Testing,Training
+brennan2019a_ll,13,No Testing,Training
+brennan2019a_ll,14,No Testing,Training
+brennan2019a_ll,15,Post-Intervention,No Training
+haugen2014a_hl,-1,Pre-Baseline,No Training
+haugen2014a_hl,0,Baseline,No Training
+haugen2014a_hl,1,No Testing,Training
+haugen2014a_hl,2,No Testing,Training
+haugen2014a_hl,3,No Testing,Training
+haugen2014a_hl,4,Mid-Intervention,Training
+haugen2014a_hl,5,No Testing,Training
+haugen2014a_hl,6,No Testing,Training
+haugen2014a_hl,7,No Testing,Training
+haugen2014a_hl,8,No Testing,Training
+haugen2014a_hl,9,Post-Intervention,No Training
+haugen2014a_ll,-1,Pre-Baseline,No Training
+haugen2014a_ll,0,Baseline,No Training
+haugen2014a_ll,1,No Testing,Training
+haugen2014a_ll,2,No Testing,Training
+haugen2014a_ll,3,No Testing,Training
+haugen2014a_ll,4,Mid-Intervention,Training
+haugen2014a_ll,5,No Testing,Training
+haugen2014a_ll,6,No Testing,Training
+haugen2014a_ll,7,No Testing,Training
+haugen2014a_ll,8,No Testing,Training
+haugen2014a_ll,9,Post-Intervention,No Training
+petrakis2018a_fail,0,Baseline,No Training
+petrakis2018a_fail,1,No Testing,Training
+petrakis2018a_fail,2,No Testing,Training
+petrakis2018a_fail,3,No Testing,Training
+petrakis2018a_fail,4,No Testing,Training
+petrakis2018a_fail,5,No Testing,Training
+petrakis2018a_fail,6,No Testing,Training
+petrakis2018a_fail,7,No Testing,Training
+petrakis2018a_fail,8,No Testing,Training
+petrakis2018a_fail,9,No Testing,Training
+petrakis2018a_fail,10,No Testing,Training
+petrakis2018a_fail,11,Post-Intervention,No Training
+petrakis2018a_rir3,0,Baseline,No Training
+petrakis2018a_rir3,1,No Testing,Training
+petrakis2018a_rir3,2,No Testing,Training
+petrakis2018a_rir3,3,No Testing,Training
+petrakis2018a_rir3,4,No Testing,Training
+petrakis2018a_rir3,5,No Testing,Training
+petrakis2018a_rir3,6,No Testing,Training
+petrakis2018a_rir3,7,No Testing,Training
+petrakis2018a_rir3,8,No Testing,Training
+petrakis2018a_rir3,9,No Testing,Training
+petrakis2018a_rir3,10,No Testing,Training
+petrakis2018a_rir3,11,Post-Intervention,No Training
+delacroix2014a_f1,0,Baseline,No Training
+delacroix2014a_f1,1,No Testing,Training
+delacroix2014a_f1,2,No Testing,Training
+delacroix2014a_f1,3,No Testing,Training
+delacroix2014a_f1,4,No Testing,Training
+delacroix2014a_f1,5,No Testing,Training
+delacroix2014a_f1,6,No Testing,Training
+delacroix2014a_f1,7,No Testing,Training
+delacroix2014a_f1,8,No Testing,Training
+delacroix2014a_f1,9,No Testing,Training
+delacroix2014a_f1,10,Post-Intervention,No Training
+delacroix2014a_f3,0,Baseline,No Training
+delacroix2014a_f3,1,No Testing,Training
+delacroix2014a_f3,2,No Testing,Training
+delacroix2014a_f3,3,No Testing,Training
+delacroix2014a_f3,4,No Testing,Training
+delacroix2014a_f3,5,No Testing,Training
+delacroix2014a_f3,6,No Testing,Training
+delacroix2014a_f3,7,No Testing,Training
+delacroix2014a_f3,8,No Testing,Training
+delacroix2014a_f3,9,No Testing,Training
+delacroix2014a_f3,10,Post-Intervention,No Training
+rahimi2020a_f1,-1,Pre-Baseline,No Training
+rahimi2020a_f1,0,Baseline,No Training
+rahimi2020a_f1,1,No Testing,Training
+rahimi2020a_f1,2,No Testing,Training
+rahimi2020a_f1,3,No Testing,Training
+rahimi2020a_f1,4,No Testing,Training
+rahimi2020a_f1,5,No Testing,Training
+rahimi2020a_f1,6,No Testing,Training
+rahimi2020a_f1,7,No Testing,Training
+rahimi2020a_f1,8,No Testing,Training
+rahimi2020a_f1,9,No Testing,Training
+rahimi2020a_f1,10,No Testing,Training
+rahimi2020a_f1,11,No Testing,Training
+rahimi2020a_f1,12,No Testing,Training
+rahimi2020a_f1,13,No Testing,Training
+rahimi2020a_f1,14,No Testing,Training
+rahimi2020a_f1,15,Post-Intervention,No Training
+rahimi2020a_f3,-1,Pre-Baseline,No Training
+rahimi2020a_f3,0,Baseline,No Training
+rahimi2020a_f3,1,No Testing,Training
+rahimi2020a_f3,2,No Testing,Training
+rahimi2020a_f3,3,No Testing,Training
+rahimi2020a_f3,4,No Testing,Training
+rahimi2020a_f3,5,No Testing,Training
+rahimi2020a_f3,6,No Testing,Training
+rahimi2020a_f3,7,No Testing,Training
+rahimi2020a_f3,8,No Testing,Training
+rahimi2020a_f3,9,No Testing,Training
+rahimi2020a_f3,10,No Testing,Training
+rahimi2020a_f3,11,No Testing,Training
+rahimi2020a_f3,12,No Testing,Training
+rahimi2020a_f3,13,No Testing,Training
+rahimi2020a_f3,14,No Testing,Training
+rahimi2020a_f3,15,Post-Intervention,No Training
+kaur2025a_2set,-1,Pre-Baseline,No Training
+kaur2025a_2set,0,Baseline,No Training
+kaur2025a_2set,1,No Testing,Training
+kaur2025a_2set,2,No Testing,Training
+kaur2025a_2set,3,No Testing,Training
+kaur2025a_2set,4,No Testing,Training
+kaur2025a_2set,5,No Testing,Training
+kaur2025a_2set,6,Mid-Intervention,Training
+kaur2025a_2set,7,No Testing,Training
+kaur2025a_2set,8,No Testing,Training
+kaur2025a_2set,9,No Testing,Training
+kaur2025a_2set,10,No Testing,Training
+kaur2025a_2set,11,No Testing,Training
+kaur2025a_2set,12,Post-Intervention,No Training
+kaur2025a_5set,-1,Pre-Baseline,No Training
+kaur2025a_5set,0,Baseline,No Training
+kaur2025a_5set,1,No Testing,Training
+kaur2025a_5set,2,No Testing,Training
+kaur2025a_5set,3,No Testing,Training
+kaur2025a_5set,4,No Testing,Training
+kaur2025a_5set,5,No Testing,Training
+kaur2025a_5set,6,Mid-Intervention,Training
+kaur2025a_5set,7,No Testing,Training
+kaur2025a_5set,8,No Testing,Training
+kaur2025a_5set,9,No Testing,Training
+kaur2025a_5set,10,No Testing,Training
+kaur2025a_5set,11,No Testing,Training
+kaur2025a_5set,12,Post-Intervention,No Training
+yilmaz2003a_2set,-1,Pre-Baseline,No Training
+yilmaz2003a_2set,0,Baseline,No Training
+yilmaz2003a_2set,1,No Testing,Training
+yilmaz2003a_2set,2,No Testing,Training
+yilmaz2003a_2set,3,No Testing,Training
+yilmaz2003a_2set,4,No Testing,Training
+yilmaz2003a_2set,5,No Testing,Training
+yilmaz2003a_2set,6,No Testing,Training
+yilmaz2003a_2set,7,No Testing,Training
+yilmaz2003a_2set,8,No Testing,Training
+yilmaz2003a_2set,9,No Testing,Training
+yilmaz2003a_2set,10,Post-Intervention,No Training
+yilmaz2003a_5set,-1,Pre-Baseline,No Training
+yilmaz2003a_5set,0,Baseline,No Training
+yilmaz2003a_5set,1,No Testing,Training
+yilmaz2003a_5set,2,No Testing,Training
+yilmaz2003a_5set,3,No Testing,Training
+yilmaz2003a_5set,4,No Testing,Training
+yilmaz2003a_5set,5,No Testing,Training
+yilmaz2003a_5set,6,No Testing,Training
+yilmaz2003a_5set,7,No Testing,Training
+yilmaz2003a_5set,8,No Testing,Training
+yilmaz2003a_5set,9,No Testing,Training
+yilmaz2003a_5set,10,Post-Intervention,No Training
+abernathy2011a_hl,0,Baseline,No Training
+abernathy2011a_hl,1,No Testing,Training
+abernathy2011a_hl,2,No Testing,Training
+abernathy2011a_hl,3,No Testing,Training
+abernathy2011a_hl,4,No Testing,Training
+abernathy2011a_hl,5,Mid-Intervention,Training
+abernathy2011a_hl,6,No Testing,Training
+abernathy2011a_hl,7,No Testing,Training
+abernathy2011a_hl,8,No Testing,Training
+abernathy2011a_hl,9,No Testing,Training
+abernathy2011a_hl,10,No Testing,Training
+abernathy2011a_hl,11,Post-Intervention,No Training
+abernathy2011a_ml,0,Baseline,No Training
+abernathy2011a_ml,1,No Testing,Training
+abernathy2011a_ml,2,No Testing,Training
+abernathy2011a_ml,3,No Testing,Training
+abernathy2011a_ml,4,No Testing,Training
+abernathy2011a_ml,5,Mid-Intervention,Training
+abernathy2011a_ml,6,No Testing,Training
+abernathy2011a_ml,7,No Testing,Training
+abernathy2011a_ml,8,No Testing,Training
+abernathy2011a_ml,9,No Testing,Training
+abernathy2011a_ml,10,No Testing,Training
+abernathy2011a_ml,11,Post-Intervention,No Training
+abernathy2011a_ll,0,Baseline,No Training
+abernathy2011a_ll,1,No Testing,Training
+abernathy2011a_ll,2,No Testing,Training
+abernathy2011a_ll,3,No Testing,Training
+abernathy2011a_ll,4,No Testing,Training
+abernathy2011a_ll,5,Mid-Intervention,Training
+abernathy2011a_ll,6,No Testing,Training
+abernathy2011a_ll,7,No Testing,Training
+abernathy2011a_ll,8,No Testing,Training
+abernathy2011a_ll,9,No Testing,Training
+abernathy2011a_ll,10,No Testing,Training
+abernathy2011a_ll,11,Post-Intervention,No Training

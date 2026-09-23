@@ -1,0 +1,354 @@
+/*
+ * MacroFactor Foundation theme for the hub site.
+ *
+ * Follows the MacroFactor brand guidelines (https://macrofactor.com/brand-guidelines/)
+ * and the design tokens of the MacroFactor Foundation website:
+ * - DM Sans throughout: light (300) body text, 520 for UI labels, 700 for headings.
+ *   The Foundation site's display face ("MacroSans") is not bundled here.
+ * - Neutrals: content #000, secondary #4B4B4B, tertiary #5E5E5E, disabled #A6A6A6,
+ *   border #E8E8E8, surface #FFF, surface-secondary #F6F6F6.
+ * - Foundation blue #276EF1 (actions), blue-dark #1B5BC6 (links),
+ *   blue-deep #00458E and blue-50 #D7E3FF (labels).
+ * - White header with the black wordmark; black footer with the white wordmark;
+ *   12px-radius cards with hairline borders; pill-shaped controls.
+ * - Logos: only the official files in site/assets/logos/; never modify, angle,
+ *   stretch or recolour them.
+ */
+
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+$mf-black: #000000;
+$mf-white: #FFFFFF;
+$mf-content-secondary: #4B4B4B;
+$mf-content-tertiary: #5E5E5E;
+$mf-content-disabled: #A6A6A6;
+$mf-border: #E8E8E8;
+$mf-surface-secondary: #F6F6F6;
+$mf-blue: #276EF1;
+$mf-blue-dark: #1B5BC6;
+$mf-blue-deep: #00458E;
+$mf-blue-50: #D7E3FF;
+$mf-orange: #CE5400;
+$mf-radius: 12px;
+
+$font-family-sans-serif: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+$font-weight-base: 300;
+$font-weight-bold: 700;
+$font-size-root: 16px;
+$font-size-base: 1.0625rem; // 17px paragraphs
+$line-height-base: 1.55;
+
+$body-bg: $mf-white;
+$body-color: $mf-black;
+$primary: $mf-blue;
+$secondary: $mf-content-secondary;
+$info: $mf-blue;
+$warning: $mf-orange;
+$link-color: $mf-blue-dark;
+$link-hover-color: $mf-blue-deep;
+$link-decoration: none;
+
+$navbar-bg: $mf-white;
+$navbar-fg: $mf-content-secondary;
+$navbar-hl: $mf-black;
+$footer-bg: $mf-black;
+$footer-fg: $mf-content-disabled;
+
+$border-color: $mf-border;
+$border-radius: $mf-radius;
+$code-color: $mf-black;
+$code-bg: $mf-surface-secondary;
+$toc-color: $mf-content-secondary;
+$toc-active-border: $mf-blue;
+$table-border-color: $mf-border;
+
+/*-- scss:rules --*/
+
+body { letter-spacing: -0.1px; }
+p, li { font-weight: 300; }
+strong, b { font-weight: 700; }
+
+h1, h2, h3, h4 { letter-spacing: -0.1px; color: $mf-black; }
+h1.title { font-size: 2.3rem; line-height: 1.2; margin-bottom: 0.5rem; }
+h2 { font-size: 1.75rem; margin-top: 2.75rem; border-bottom: none; }
+h3 { font-size: 1.25rem; }
+.subtitle.lead { color: $mf-content-secondary; font-weight: 300; font-size: 1.1rem; }
+#title-block-header { margin-bottom: 2rem; }
+
+a { text-underline-offset: 3px; }
+a:hover { text-decoration: underline; }
+
+// ---- header ---------------------------------------------------------------------
+
+.navbar {
+  border-bottom: 2px solid $mf-border;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+.navbar-brand .navbar-logo {
+  height: 30px;
+  width: auto;
+  max-height: none;
+  margin-right: 1.25rem;
+}
+.navbar-brand .navbar-title {
+  color: $mf-black;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid $mf-border;
+}
+.navbar .nav-link {
+  color: $mf-content-secondary;
+  font-size: 0.875rem; // 14px
+  font-weight: 520;
+  padding-left: 0.9rem !important;
+  padding-right: 0.9rem !important;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: $mf-black;
+  text-decoration: none;
+}
+.navbar .nav-link.active { box-shadow: inset 0 -2px 0 $mf-blue; }
+@media (max-width: 576px) {
+  .navbar-brand .navbar-logo { height: 24px; margin-right: 0.75rem; }
+  .navbar-brand .navbar-title { padding-left: 0.75rem; font-size: 0.9rem; }
+}
+
+// ---- sidebar / TOC --------------------------------------------------------------
+
+#TOC, .sidebar nav[role="doc-toc"] {
+  font-size: 0.875rem;
+  a { color: $mf-content-secondary; font-weight: 300; }
+  a.active { color: $mf-black; font-weight: 520; }
+}
+#toc-title { font-size: 0.75rem; font-weight: 520; text-transform: uppercase; letter-spacing: 0.06em; color: $mf-content-tertiary; }
+
+// ---- footer (black, as on the Foundation site) ----------------------------------
+
+.nav-footer {
+  background-color: $mf-black;
+  color: $mf-content-disabled;
+  border-top: none;
+  font-size: 0.875rem;
+  padding: 2.5rem 1.5rem;
+  align-items: center;
+  a { color: $mf-white; }
+  a:hover { color: $mf-white; text-decoration: underline; }
+  p { font-weight: 300; margin: 0.35rem 0 0; }
+  img.mf-footer-logo { height: 34px; width: auto; display: block; }
+}
+.nav-footer-left, .nav-footer-right { color: $mf-content-disabled; }
+
+// ---- tables -----------------------------------------------------------------------
+
+table { font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+// Pandoc gives long pipe tables equal column widths; let content size them.
+main table colgroup col { width: auto !important; }
+.table > :not(caption) > * > * { border-bottom-color: $mf-border; padding: 0.6rem 0.75rem; }
+.table thead th { border-bottom: 2px solid $mf-border; font-weight: 520; color: $mf-content-secondary; }
+.table > tbody > tr:last-child > * { border-bottom: none; }
+// Tables sit inside a bordered card.
+.cell-output-display table, main table:not(.sourceCode) {
+  border: 1px solid $mf-border;
+  border-radius: $mf-radius;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+// ---- notice card with a label strip (e.g. "Synthetic data") ------------------------
+
+.mf-notice {
+  border: 1px solid $mf-border;
+  border-radius: $mf-radius;
+  overflow: hidden;
+  margin: 1.5rem 0 2rem;
+  > p { margin: 0; padding: 1rem 1.25rem; color: $mf-content-secondary; }
+  > p:first-child {
+    background: $mf-blue-50;
+    color: $mf-blue-deep;
+    font-size: 0.75rem;
+    font-weight: 520;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.55rem 1.25rem;
+  }
+  > p:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: $mf-blue;
+    margin-right: 0.6rem;
+    vertical-align: 1px;
+  }
+}
+
+// Quarto callouts restyled to the same card language.
+div.callout {
+  border: 1px solid $mf-border !important;
+  border-left: 1px solid $mf-border !important;
+  border-radius: $mf-radius !important;
+  box-shadow: none;
+}
+
+// ---- stat tiles -------------------------------------------------------------------
+
+.mf-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin: 1.75rem 0 2.25rem;
+}
+.mf-stat {
+  border: 1px solid $mf-border;
+  border-radius: $mf-radius;
+  padding: 1.1rem 1.25rem 1rem;
+  p { margin: 0; }
+}
+.mf-stat-value { display: block; font-size: 2rem; font-weight: 700; line-height: 1.1; letter-spacing: -0.5px; font-variant-numeric: lining-nums; }
+.mf-stat-label { display: block; color: $mf-content-secondary; font-size: 0.875rem; font-weight: 300; margin-top: 0.3rem; }
+
+// ---- link list (rows with chevrons, as the Foundation site's project lists) ---------
+
+.mf-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2.25rem;
+  border: 1px solid $mf-border;
+  border-radius: $mf-radius;
+  overflow: hidden;
+}
+.mf-links li {
+  position: relative;
+  border-bottom: 1px solid $mf-border;
+  padding: 1rem 3rem 1rem 1.25rem;
+  margin: 0;
+  color: $mf-content-secondary;
+  font-size: 0.95rem;
+  &:last-child { border-bottom: none; }
+  &:hover { background: $mf-surface-secondary; }
+  a {
+    display: block;
+    color: $mf-black;
+    font-weight: 520;
+    font-size: 1.0625rem;
+    text-decoration: none;
+  }
+  // Whole row is clickable.
+  a::before { content: ""; position: absolute; inset: 0; }
+  &::after {
+    content: "";
+    position: absolute;
+    right: 1.35rem;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid $mf-blue-dark;
+    border-right: 2px solid $mf-blue-dark;
+    transform: translateY(-50%) rotate(45deg);
+  }
+}
+
+// ---- grey band (section background) ------------------------------------------------
+
+.mf-band {
+  background: $mf-surface-secondary;
+  border-radius: $mf-radius;
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+  > :last-child { margin-bottom: 0; }
+}
+
+// ---- code -------------------------------------------------------------------------
+
+pre, div.sourceCode {
+  border: 1px solid $mf-border;
+  border-radius: $mf-radius;
+  background: $mf-surface-secondary;
+}
+div.sourceCode pre { border: none; }
+
+// ---- figures: generated SVGs, inlined by assets/site.js so they use DM Sans --------
+
+.mf-figure, .quarto-figure {
+  svg, img { width: 100%; height: auto; display: block; }
+}
+.mf-inline-svg { width: 100%; height: auto; }
+.quarto-figure figcaption, figcaption { color: $mf-content-tertiary; font-size: 0.875rem; font-weight: 300; }
+
+// ---- data visualiser (explore page) --------------------------------------------------
+
+.mf-viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: end;
+  margin: 1.5rem 0 0.5rem;
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 520;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $mf-content-tertiary;
+  }
+  select {
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-transform: none;
+    color: $mf-black;
+    min-width: 17rem;
+    padding: 0.75rem 2.75rem 0.75rem 1.25rem;
+    border: 2px solid $mf-border;
+    border-radius: 999px;
+    background-color: $mf-white;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%231B5BC6' stroke-width='2'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1.25rem center;
+    cursor: pointer;
+  }
+  select:hover { border-color: $mf-content-disabled; }
+  select:disabled { color: $mf-content-disabled; cursor: default; background-image: none; }
+  select:focus-visible { outline: 2px solid $mf-blue; outline-offset: 2px; }
+}
+.mf-viz-desc { color: $mf-content-secondary; margin: 0.5rem 0 1rem; min-height: 1.6em; }
+.mf-viz-plot {
+  border: 1px solid $mf-border;
+  border-radius: $mf-radius;
+  padding: 0.75rem;
+  min-height: 320px;
+  background: $mf-white;
+}
+.mf-viz-status { color: $mf-content-tertiary; padding: 2rem; text-align: center; }
+.mf-viz-actions { margin-top: 0.9rem; }
+
+// Pill button (Foundation "mff-btn").
+.mf-btn, .mf-viz-actions a {
+  display: inline-block;
+  background: $mf-blue;
+  color: $mf-white !important;
+  font-size: 0.9375rem;
+  font-weight: 520;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  &:hover { background: $mf-blue-dark; }
+}
+
+@media (max-width: 576px) {
+  .mf-viz-controls select { min-width: 100%; }
+  .mf-viz-controls label { width: 100%; }
+}

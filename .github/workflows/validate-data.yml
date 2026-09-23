@@ -1,0 +1,73 @@
+# Integrity checks for the hub's data on every pull request (and on main).
+#
+# 1. scripts/validate_data.R: every table against config/schema.yml
+#    (columns, types, required values, vocabularies, ranges, primary-key
+#    uniqueness, foreign-key resolution, cross-table rules). Failing rows are
+#    annotated on the pull request.
+# 2. The test suite: validator behaviour, that data/README.md matches the
+#    schema, and the analysis and figure functions on the current data.
+#
+# It does NOT run the targets pipeline or render the site.
+
+name: Validate data
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "config/**"
+      - "R/**"
+      - "scripts/**"
+      - "tests/**"
+      - "renv.lock"
+      - ".github/workflows/validate-data.yml"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "config/**"
+      - "R/**"
+      - "scripts/**"
+      - "tests/**"
+      - "renv.lock"
+      - ".github/workflows/validate-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: renv # the R version recorded in renv.lock
+          use-public-rspm: true
+
+      # System libraries the R packages in renv.lock link against. Binaries
+      # from Posit Package Manager still need these at load time; renv lists
+      # any that are missing at the start of `renv::restore()`.
+      #   libglpk-dev: igraph (targets)   libxml2-dev: xml2 (tests)
+      #   libx11-dev: clipr               cmake: fs (source builds)
+      #   fontconfig/freetype/harfbuzz/fribidi/png: systemfonts, textshaping, svglite
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libglpk-dev libxml2-dev libx11-dev cmake \
+            libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libpng-dev
+
+      - uses: r-lib/actions/setup-renv@v2
+
+      - name: Validate tables against config/schema.yml
+        run: Rscript scripts/validate_data.R
+
+      - name: Run tests
+        run: Rscript tests/testthat.R

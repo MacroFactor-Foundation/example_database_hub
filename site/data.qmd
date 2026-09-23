@@ -1,0 +1,20 @@
+---
+title: "Tables and data dictionary"
+subtitle: "What the hub stores, how the tables join, and the rules every row must satisfy"
+---
+
+The hub is a set of plain CSV files, one per normalized entity, joined by stable identifiers that are assigned once and never reused. The files live in the repository's [`data/`]({{< var hub.repo_url >}}/tree/main/data) folder. For reproducible work, read them at a pinned tag or commit, not from `main` (see [Use this hub](using.qmd)).
+
+## Tables
+
+{{< include generated/tables/table-counts.md >}}
+
+## The corpus at a glance
+
+{{< include generated/tables/study-characteristics.md >}}
+
+## Data dictionary
+
+Generated from `config/schema.yml`, the schema the validation checks enforce on every pull request.
+
+{{< include generated/tables/data-dictionary.md >}}

@@ -1,0 +1,119 @@
+vocabulary,value,description
+yes_no,Yes,
+yes_no,No,
+yes_no_unclear,Yes,
+yes_no_unclear,No,
+yes_no_unclear,Unclear,Not reported or ambiguous in the publication
+design,Parallel Group,Participants allocated to separate arms
+design,Within-Participant Unilateral,Each participant trains limbs under different conditions
+design,Parallel Group + Within-Participant Unilateral,Both parallel arms and within-participant limb conditions
+design,Within-Participant Crossover,Each participant completes conditions sequentially
+testing_week_type,Pre-Baseline,Familiarization or reliability testing before baseline
+testing_week_type,Baseline,Baseline testing (defines week 0)
+testing_week_type,Mid-Intervention,Testing during the intervention
+testing_week_type,Post-Intervention,Testing at the end of the intervention
+testing_week_type,Follow-Up,Testing after a post-intervention period
+testing_week_type,Reliability Testing,Testing performed only to assess measurement reliability
+testing_week_type,No Testing,No testing this week
+training_week_type,Training,Intervention training
+training_week_type,Standardized Training,Common training block preceding the intervention
+training_week_type,Reduced Training,Reduced-volume or deload week
+training_week_type,No Training,No training this week
+training_week_type,Non-Training Control,Non-training control arm during the intervention period
+link_type,Inter-Exercise,Linked sets span different exercises (e.g. supersets)
+link_type,Intra-Exercise,Linked sets within one exercise (e.g. cluster or rest-pause sets)
+implement,Barbell,
+implement,Dumbbell,
+implement,Machine,
+implement,Smith-Machine,
+implement,Cable,
+implement,Bodyweight,
+implement,Kettlebell,
+implement,Resistance Band,
+implement,Isokinetic Dynamometer,
+pattern,Bench Press,
+pattern,Chest Fly,
+pattern,Shoulder Press,
+pattern,Lateral Raise,
+pattern,Pulldown,
+pattern,Row,
+pattern,Elbow Flexion,
+pattern,Elbow Extension,
+pattern,Back Squat,
+pattern,Leg Press,
+pattern,Lunge,
+pattern,Deadlift,
+pattern,Hip Thrust,
+pattern,Knee Extension,
+pattern,Knee Flexion,
+pattern,Straight Leg Calf Raise,
+relative_load_type,RM,Load set to a repetition maximum (e.g. 8-12RM)
+relative_load_type,%1RM,Load as a percentage of one-repetition maximum
+relative_load_type,%XRM,Load as a percentage of a multi-repetition maximum
+ptf_type,FAIL,Sets taken to failure
+ptf_type,RM,Sets taken to the prescribed repetition maximum
+ptf_type,RIR,Sets stopped at a prescribed number of repetitions in reserve
+ptf_type,RPE,Sets stopped at a prescribed rating of perceived exertion
+failure_definition,Momentary Muscular Failure,
+failure_definition,Concentric Failure,
+failure_definition,Volitional Failure,
+failure_definition,Momentary Concentric Muscular Failure,
+domain,Hypertrophy,Muscle size
+domain,Strength,Maximal force or load
+domain,Body Composition,Whole-body or regional lean and fat mass
+domain,Circumference,Limb circumference
+domain,Muscle Architecture,Fascicle length and pennation
+domain,Absolute Muscular Endurance,Repetitions at a fixed absolute load
+domain,Relative Muscular Endurance,Repetitions at a load relative to current maximum
+domain,RFD,Rate of force development
+device,B-mode US,B-mode ultrasound
+device,MRI,Magnetic resonance imaging
+device,CT,Computed tomography
+device,DXA,Dual-energy X-ray absorptiometry
+device,BIA,Bioelectrical impedance analysis
+device,Muscle Biopsy,
+device,Tape Measure,
+device_value,Muscle Thickness,
+device_value,Muscle Cross-Sectional Area,
+device_value,Type I Muscle Fiber Cross-Sectional Area,
+device_value,Type II Muscle Fiber Cross-Sectional Area,
+device_value,Lean Mass,
+device_value,Fat Mass,
+device_value,Circumference,
+muscle,BBLH,Biceps brachii long head
+muscle,BBSH,Biceps brachii short head
+muscle,BRA,Brachialis
+muscle,TBLH,Triceps brachii long head
+muscle,TBLAT,Triceps brachii lateral head
+muscle,TBMED,Triceps brachii medial head
+muscle,RF,Rectus femoris
+muscle,VL,Vastus lateralis
+muscle,VI,Vastus intermedius
+muscle,VM,Vastus medialis
+muscle,GMH,Gastrocnemius medial head
+muscle,GLH,Gastrocnemius lateral head
+muscle,SOL,Soleus
+muscle,PM,Pectoralis major
+muscle_region,Proximal,
+muscle_region,Middle,
+muscle_region,Distal,
+contraction_type,Isotonic,
+contraction_type,Isometric,
+contraction_type,Isokinetic,
+measurement_units,mm,
+measurement_units,cm,
+measurement_units,cm²,
+measurement_units,micrometers squared,
+measurement_units,kg,
+measurement_units,N·m,
+measurement_units,repetitions,
+statistic,ICC,Intraclass correlation coefficient
+statistic,CV,Coefficient of variation
+statistic,SEM,Standard error of measurement
+statistic,TE,Typical error
+statistic,MDC,Minimal detectable change
+statistic_units,%,
+statistic_units,mm,
+statistic_units,cm²,
+statistic_units,kg,
+statistic_units,N·m,

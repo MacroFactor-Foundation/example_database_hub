@@ -1,0 +1,71 @@
+# Quarto website for the hub. Renders from committed files only:
+# page sources here plus the pipeline-generated interface in _variables.yml
+# and generated/. No page executes code or reads _targets/.
+#
+# Preview locally:  quarto preview site
+# Render:           quarto render site      (output: site/_site/, ignored by Git)
+
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/site.js
+    - generated/viz/*.svg
+    - generated/viz/manifest.json
+    - generated/figures/*.svg
+
+lang: en
+
+website:
+  title: "Example Database Hub"
+  description: "A worked example of the MacroFactor Foundation living-database pattern, built on synthetic data."
+  # Default GitHub Pages address; a real hub would use a custom domain.
+  site-url: https://macrofactor-foundation.github.io/example_database_hub/
+  repo-url: https://github.com/MacroFactor-Foundation/example_database_hub
+  repo-subdir: site
+  repo-actions: [source, issue]
+  page-navigation: true
+  # Official MacroFactor Foundation marks (site/assets/logos/); see the brand
+  # guidelines before changing how they are used.
+  favicon: assets/logos/favicon.png
+  open-graph:
+    image: assets/logos/logomark-blue.png
+  navbar:
+    logo: assets/logos/wordmark-black.png
+    logo-alt: "MacroFactor Foundation"
+    title: "Example Database Hub"
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: explore.qmd
+        text: Explore
+      - href: analyses.qmd
+        text: Analyses
+      - href: data.qmd
+        text: Data
+      - href: using.qmd
+        text: Use this hub
+    right:
+      - icon: github
+        href: https://github.com/MacroFactor-Foundation/example_database_hub
+        aria-label: GitHub repository
+  page-footer:
+    left: |
+      ![](assets/logos/wordmark-white.png){.mf-footer-logo fig-alt="MacroFactor Foundation"}
+
+      Example database hub, built on synthetic data.
+    right: |
+      [GitHub repository](https://github.com/MacroFactor-Foundation/example_database_hub) ·
+      Code: [MIT](https://github.com/MacroFactor-Foundation/example_database_hub/blob/main/LICENSE) ·
+      Data and content: [CC BY 4.0](https://github.com/MacroFactor-Foundation/example_database_hub/blob/main/LICENSE-DATA.md)
+
+      © 2026 MacroFactor Foundation
+
+format:
+  html:
+    theme: [cosmo, theme/macrofactor.scss]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    anchor-sections: true
+    include-after-body: assets/scripts.html

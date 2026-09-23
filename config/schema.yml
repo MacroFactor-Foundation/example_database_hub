@@ -1,0 +1,244 @@
+# Hub schema: the single source of truth for every table in data/.
+#
+# R/validate.R enforces this file on every pull request (see
+# .github/workflows/validate-data.yml), and data/README.md is generated from it
+# by scripts/build_data_dictionary.R. Edit the schema here, then regenerate the
+# dictionary; never edit data/README.md by hand.
+#
+# Column types: string | integer | number. An empty CSV field means missing.
+# Column keys:  type, required, vocab (a vocabulary in the vocabulary file),
+#               vocab_list (comma-separated values from a vocabulary),
+#               min, max, pattern (regular expression), description.
+# Table checks: primary_key (unique, non-missing), foreign_keys, and extra
+#               checks of type ordered | id_prefix | same_parent.
+
+schema_version: 1
+vocabulary_file: data/manual/vocabulary.csv
+
+tables:
+
+  study:
+    file: data/study.csv
+    description: One row per study (publication).
+    grain: study
+    primary_key: [study_id]
+    columns:
+      study_id:
+        type: string
+        required: true
+        pattern: "^[a-z]+[0-9]{4}[a-z]$"
+        description: Stable study identifier. First-author surname (lowercase ASCII) + year + a letter disambiguator, e.g. hartley2019a. Assigned once, never reused.
+      first_author: {type: string, required: true, description: Surname of the first author.}
+      year: {type: integer, required: true, min: 1950, max: 2100, description: Publication year.}
+      doi: {type: string, required: false, pattern: "^10\\.[0-9]{4,9}/\\S+$", description: Digital Object Identifier without the https://doi.org/ prefix.}
+      title: {type: string, required: true, description: Full publication title.}
+      randomized: {type: string, required: true, vocab: yes_no_unclear, description: Whether allocation to arms (or limbs) was randomized.}
+      design: {type: string, required: true, vocab: design, description: Study design.}
+      nutrition_controlled: {type: string, required: true, vocab: yes_no_unclear, description: Whether dietary intake was controlled or standardized.}
+      control_condition: {type: string, required: true, vocab: yes_no, description: Whether the study includes a non-training control arm.}
+      bfr_condition: {type: string, required: true, vocab: yes_no, description: Whether any arm used blood-flow restriction.}
+      concurrent_training: {type: string, required: true, vocab: yes_no, description: Whether any arm also performed concurrent (e.g. endurance) training.}
+      uncontrolled_training: {type: string, required: true, vocab: yes_no, description: Whether participants could perform additional uncontrolled training.}
+      standardized_training: {type: string, required: true, vocab: yes_no, description: Whether a standardized training block preceded the intervention.}
+      washout_period: {type: string, required: true, vocab: yes_no, description: Whether the design includes a washout period.}
+      reduced_training_weeks: {type: string, required: true, vocab: yes_no, description: Whether the intervention contains reduced-training (e.g. deload) weeks.}
+      no_training_weeks: {type: string, required: true, vocab: yes_no, description: Whether the intervention contains weeks with no training (excluding testing weeks).}
+      supplementation: {type: string, required: true, vocab: yes_no, description: Whether any arm received a nutritional supplement.}
+
+  arm:
+    file: data/arm.csv
+    description: One row per study arm (group, or limb condition in within-participant designs), with sample characteristics.
+    grain: study arm
+    primary_key: [arm_id]
+    foreign_keys:
+      - {columns: [study_id], references: study, ref_columns: [study_id]}
+    checks:
+      - {type: id_prefix, column: arm_id, parent: study_id, separator: "_"}
+    columns:
+      arm_id:
+        type: string
+        required: true
+        pattern: "^[a-z]+[0-9]{4}[a-z]_[a-z0-9]+$"
+        description: Stable arm identifier, study_id + "_" + slug of the arm label, e.g. hartley2019a_hl.
+      study_id: {type: string, required: true, description: Study this arm belongs to.}
+      arm_label: {type: string, required: true, description: Arm label as reported in the study (e.g. HL, LL, CON).}
+      is_nontraining_control_group: {type: string, required: true, vocab: yes_no, description: Whether this arm is a non-training control.}
+      used_bfr: {type: string, required: true, vocab: yes_no, description: Whether this arm trained with blood-flow restriction.}
+      load_adjustments: {type: string, required: false, vocab: yes_no, description: Whether loads were adjusted during the intervention. Missing for non-training controls.}
+      progression: {type: string, required: false, vocab: yes_no_unclear, description: Whether the program was progressed over time. Missing for non-training controls.}
+      "n": {type: integer, required: true, min: 1, description: Participants analysed in this arm.}
+      n_dropouts: {type: integer, required: false, min: 0, description: Participants who dropped out of this arm.}
+      proportion_male: {type: number, required: false, min: 0, max: 1, description: Proportion of participants who were male.}
+      age_m: {type: number, required: false, min: 10, max: 100, description: Mean age (years).}
+      age_sd: {type: number, required: false, min: 0, description: SD of age (years).}
+      age_se: {type: number, required: false, min: 0, description: SE of age (years); used when only an SE is reported.}
+      body_mass_m: {type: number, required: false, min: 20, max: 250, description: Mean body mass (kg).}
+      body_mass_sd: {type: number, required: false, min: 0, description: SD of body mass (kg).}
+      body_mass_se: {type: number, required: false, min: 0, description: SE of body mass (kg).}
+      height_m: {type: number, required: false, min: 100, max: 230, description: Mean height (cm).}
+      height_sd: {type: number, required: false, min: 0, description: SD of height (cm).}
+      height_se: {type: number, required: false, min: 0, description: SE of height (cm).}
+      bmi_m: {type: number, required: false, min: 10, max: 60, description: Mean body-mass index (kg/m²).}
+      bmi_sd: {type: number, required: false, min: 0, description: SD of body-mass index.}
+      bmi_se: {type: number, required: false, min: 0, description: SE of body-mass index.}
+      training_exp_m: {type: number, required: false, min: 0, description: Mean resistance-training experience (years). 0 = untrained.}
+      training_exp_sd: {type: number, required: false, min: 0, description: SD of training experience (years).}
+      training_exp_se: {type: number, required: false, min: 0, description: SE of training experience (years).}
+
+  arm_week:
+    file: data/arm_week.csv
+    description: The study timeline, one row per arm per week, recording what testing and training happened that week.
+    grain: arm × week
+    primary_key: [arm_id, week]
+    foreign_keys:
+      - {columns: [arm_id], references: arm, ref_columns: [arm_id]}
+    columns:
+      arm_id: {type: string, required: true, description: Arm.}
+      week: {type: integer, required: true, min: -52, max: 156, description: Study week relative to baseline testing (week 0). Negative weeks precede baseline.}
+      testing_week_type: {type: string, required: true, vocab: testing_week_type, description: Testing that took place this week.}
+      training_week_type: {type: string, required: true, vocab: training_week_type, description: Training that took place this week.}
+
+  training_set:
+    file: data/training_set.csv
+    description: The prescribed training program at the level of individual sets.
+    grain: arm × week × session × exercise × set
+    primary_key: [arm_id, week, session, exercise_order, set]
+    foreign_keys:
+      - {columns: [arm_id, week], references: arm_week, ref_columns: [arm_id, week]}
+    checks:
+      - {type: ordered, lower: reps_min, upper: reps_max}
+      - {type: ordered, lower: relative_load_min, upper: relative_load_max}
+      - {type: ordered, lower: rm_min, upper: rm_max}
+    columns:
+      arm_id: {type: string, required: true, description: Arm.}
+      week: {type: integer, required: true, description: Study week (see arm_week).}
+      session: {type: integer, required: true, min: 1, max: 14, description: Session number within the week.}
+      exercise_order: {type: integer, required: true, min: 1, max: 30, description: Position of the exercise within the session.}
+      set: {type: integer, required: true, min: 1, max: 50, description: Set number within the exercise.}
+      link_id: {type: integer, required: false, min: 1, description: Identifier grouping sets performed back-to-back (supersets, clusters) within a session.}
+      link_type: {type: string, required: false, vocab: link_type, description: Whether linked sets span exercises (Inter-Exercise) or are within one exercise (Intra-Exercise).}
+      link_sequence: {type: integer, required: false, min: 1, description: Position of this set within its link.}
+      exercise: {type: string, required: true, description: Exercise name.}
+      implement: {type: string, required: false, vocab: implement, description: Equipment used.}
+      pattern: {type: string, required: false, vocab: pattern, description: Movement pattern.}
+      reps_min: {type: integer, required: false, min: 1, description: Prescribed repetitions (lower bound; equals reps_max when a single value was prescribed).}
+      reps_max: {type: integer, required: false, min: 1, description: Prescribed repetitions (upper bound).}
+      relative_load_type: {type: string, required: false, vocab: relative_load_type, description: How load was prescribed.}
+      relative_load_min: {type: number, required: false, min: 0, max: 150, description: Relative load (lower bound), in the unit implied by relative_load_type (%1RM or %XRM).}
+      relative_load_max: {type: number, required: false, min: 0, max: 150, description: Relative load (upper bound).}
+      rm_min: {type: integer, required: false, min: 1, description: Repetition-maximum target (lower bound) when relative_load_type is RM.}
+      rm_max: {type: integer, required: false, min: 1, description: Repetition-maximum target (upper bound).}
+      ptf_type: {type: string, required: false, vocab: ptf_type, description: How proximity to failure was prescribed.}
+      failure_definition: {type: string, required: false, vocab: failure_definition, description: Definition of failure used when ptf_type is FAIL.}
+      ptf: {type: number, required: false, min: -5, max: 10, description: Proximity-to-failure value in the unit implied by ptf_type (0 = failure; RIR = repetitions in reserve).}
+      velocity_loss: {type: number, required: false, min: 0, max: 100, description: Velocity-loss threshold (%). Reserved; not yet extracted.}
+      tempo_eccentric: {type: number, required: false, min: 0, max: 20, description: Eccentric phase duration (s).}
+      tempo_pause: {type: number, required: false, min: 0, max: 20, description: Pause duration (s).}
+      tempo_concentric: {type: number, required: false, min: 0, max: 20, description: Concentric phase duration (s). Missing when the concentric phase was volitional or not reported ("None" in the extraction sheet).}
+      rest_intra_set: {type: number, required: false, min: 0, max: 10, description: Rest within a set (min), e.g. cluster sets.}
+      rest_inter_set: {type: number, required: false, min: 0, max: 15, description: Rest after this set (min). Usually missing on the final set of an exercise.}
+
+  measure:
+    file: data/measure.csv
+    description: One row per outcome measure per study. Describes what was measured and how; the values themselves are in outcome, contrast and reliability.
+    grain: study × outcome measure
+    primary_key: [measure_id]
+    foreign_keys:
+      - {columns: [study_id], references: study, ref_columns: [study_id]}
+    checks:
+      - {type: id_prefix, column: measure_id, parent: study_id, separator: "_m"}
+    columns:
+      measure_id:
+        type: string
+        required: true
+        pattern: "^[a-z]+[0-9]{4}[a-z]_m[0-9]{2,}$"
+        description: Stable measure identifier, study_id + "_m" + a two-digit sequence number in order of entry, e.g. hartley2019a_m01.
+      study_id: {type: string, required: true, description: Study.}
+      domain: {type: string, required: true, vocab: domain, description: Outcome domain.}
+      measurement: {type: string, required: true, description: Name of the measurement (e.g. Elbow Flexor Thickness, Parallel Back Squat 1RM).}
+      device: {type: string, required: false, vocab: device, description: Measurement device (morphological outcomes).}
+      device_value: {type: string, required: false, vocab: device_value, description: Quantity the device measured.}
+      muscle_assessed: {type: string, required: false, vocab_list: muscle, description: Comma-separated muscle codes assessed (see the muscle vocabulary).}
+      muscle_region: {type: string, required: false, vocab: muscle_region, description: Region of the muscle assessed.}
+      implement: {type: string, required: false, vocab: implement, description: Equipment used for performance outcomes.}
+      pattern: {type: string, required: false, vocab: pattern, description: Movement pattern for performance outcomes.}
+      contraction_type: {type: string, required: false, vocab: contraction_type, description: Contraction type for performance outcomes.}
+      rm_value: {type: integer, required: false, min: 1, max: 50, description: Repetition maximum tested (e.g. 1 for a 1RM).}
+      measurement_units: {type: string, required: true, vocab: measurement_units, description: Units of the outcome values.}
+
+  outcome:
+    file: data/outcome.csv
+    description: Summary statistics for an outcome measure in one arm at one testing week.
+    grain: arm × measure × week
+    primary_key: [arm_id, measure_id, week]
+    foreign_keys:
+      - {columns: [arm_id, week], references: arm_week, ref_columns: [arm_id, week]}
+      - {columns: [measure_id], references: measure, ref_columns: [measure_id]}
+    checks:
+      - {type: same_parent, left: {column: arm_id, table: arm, key: arm_id, value: study_id}, right: {column: measure_id, table: measure, key: measure_id, value: study_id}}
+    columns:
+      arm_id: {type: string, required: true, description: Arm.}
+      measure_id: {type: string, required: true, description: Measure (must belong to the same study as the arm).}
+      week: {type: integer, required: true, description: Testing week (see arm_week for its testing_week_type).}
+      "n": {type: integer, required: false, min: 1, description: Participants contributing to this value.}
+      mean: {type: number, required: false, description: Mean, in measurement_units.}
+      sd: {type: number, required: false, min: 0, description: Standard deviation.}
+      se: {type: number, required: false, min: 0, description: Standard error; used when only an SE is reported.}
+
+  contrast:
+    file: data/contrast.csv
+    description: Within-arm change between two testing weeks, as reported by the study (used when change statistics are reported directly).
+    grain: arm × measure × week pair
+    primary_key: [arm_id, measure_id, week_high, week_low]
+    foreign_keys:
+      - {columns: [arm_id, week_high], references: arm_week, ref_columns: [arm_id, week]}
+      - {columns: [arm_id, week_low], references: arm_week, ref_columns: [arm_id, week]}
+      - {columns: [measure_id], references: measure, ref_columns: [measure_id]}
+    checks:
+      - {type: ordered, lower: week_low, upper: week_high, strict: true}
+      - {type: ordered, lower: ci_low_diff, upper: ci_high_diff}
+      - {type: same_parent, left: {column: arm_id, table: arm, key: arm_id, value: study_id}, right: {column: measure_id, table: measure, key: measure_id, value: study_id}}
+    columns:
+      arm_id: {type: string, required: true, description: Arm.}
+      measure_id: {type: string, required: true, description: Measure (must belong to the same study as the arm).}
+      week_high: {type: integer, required: true, description: Later testing week of the contrast.}
+      week_low: {type: integer, required: true, description: Earlier testing week of the contrast.}
+      n_diff: {type: integer, required: false, min: 1, description: Participants contributing to the change.}
+      mean_diff: {type: number, required: false, description: Mean change (later minus earlier), in measurement_units unless flag_relative_difference is Yes.}
+      sd_diff: {type: number, required: false, min: 0, description: SD of the change.}
+      se_diff: {type: number, required: false, min: 0, description: SE of the change.}
+      ci_level_diff: {type: number, required: false, min: 50, max: 99.9, description: Confidence level (%) of the reported interval.}
+      ci_low_diff: {type: number, required: false, description: Lower confidence limit of the change.}
+      ci_high_diff: {type: number, required: false, description: Upper confidence limit of the change.}
+      t_value_diff: {type: number, required: false, description: Reported t statistic for the change.}
+      p_value_diff: {type: number, required: false, min: 0, max: 1, description: Reported p value for the change.}
+      flag_relative_difference: {type: string, required: true, vocab: yes_no, description: Yes when mean_diff is a percentage change.}
+      flag_standardized_difference: {type: string, required: true, vocab: yes_no, description: Yes when mean_diff is a standardized (unitless) change.}
+
+  reliability:
+    file: data/reliability.csv
+    description: Reliability statistics reported for a study's outcome measures.
+    grain: reported reliability statistic
+    primary_key: [reliability_id]
+    foreign_keys:
+      - {columns: [measure_id], references: measure, ref_columns: [measure_id]}
+    checks:
+      - {type: id_prefix, column: reliability_id, parent: measure_id, separator: "_r"}
+      - {type: ordered, lower: ci_low_reli, upper: ci_high_reli}
+    columns:
+      reliability_id:
+        type: string
+        required: true
+        pattern: "^[a-z]+[0-9]{4}[a-z]_m[0-9]{2,}_r[0-9]+$"
+        description: Stable identifier, measure_id + "_r" + a sequence number, e.g. hartley2019a_m01_r1.
+      measure_id: {type: string, required: true, description: Measure the statistic describes.}
+      statistic: {type: string, required: true, vocab: statistic, description: Reliability statistic.}
+      estimate: {type: number, required: false, description: Reported value of the statistic.}
+      statistic_units: {type: string, required: false, vocab: statistic_units, description: Units of the estimate, where the statistic has units (e.g. SEM in kg, CV in %).}
+      week: {type: integer, required: false, description: Study week of the reliability assessment, if it took place within the study timeline.}
+      testing_week_type: {type: string, required: false, vocab: testing_week_type, description: When the reliability assessment took place.}
+      "n": {type: integer, required: false, min: 1, description: Participants in the reliability assessment.}
+      se_reli: {type: number, required: false, min: 0, description: Standard error of the estimate. Reserved; not yet extracted.}
+      ci_level_reli: {type: number, required: false, min: 50, max: 99.9, description: Confidence level (%).}
+      ci_low_reli: {type: number, required: false, description: Lower confidence limit.}
+      ci_high_reli: {type: number, required: false, description: Upper confidence limit.}
