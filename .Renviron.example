@@ -1,0 +1,5 @@
+# Copy to .Renviron (ignored by Git) only if you need to override a default.
+# This hub needs no environment variables: all data are in the repository.
+#
+# Optional: keep the global renv package cache on a local, non-synced disk.
+# RENV_PATHS_CACHE=D:/renv-cache

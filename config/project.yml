@@ -1,0 +1,29 @@
+# Project configuration read by _targets.R. Paths are project-relative.
+
+project:
+  title: MacroFactor Foundation Example Database Hub
+  short_name: example_database_hub
+  hub_type: data + analysis + site # data hub that also runs its own analyses and site
+  repository: https://github.com/MacroFactor-Foundation/example_database_hub
+  # Default GitHub Pages address. A real hub would use a custom domain.
+  site_url: https://macrofactor-foundation.github.io/example_database_hub/
+  data_status: synthetic # toy data for demonstration; see data-raw/generate_toy_data.R
+
+paths:
+  schema: config/schema.yml
+  site_generated: site/generated
+  site_variables: site/_variables.yml
+
+analysis:
+  # Assumed pre-post correlation for standardized mean changes (not reported
+  # by most studies). Change it here and the pipeline reruns what depends on it.
+  pre_post_r: 0.8
+  # Load classification per set: high load if the prescribed %1RM midpoint is
+  # at least this value, or the RM-target midpoint is at most this value.
+  high_load_min_pct_1rm: 60
+  high_load_max_rm: 15
+  # Weekly sets per exercise are centred here in the meta-regression.
+  sets_centre: 6
+  # Domains that get a full meta-analysis on the Analyses page.
+  meta_domains: [Hypertrophy, Strength]
+  min_studies_per_model: 5

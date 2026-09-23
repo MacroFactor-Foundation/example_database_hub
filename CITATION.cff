@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, please cite the specific data release (tag) you
+  used. This is an example hub containing synthetic data; do not cite it as
+  evidence about training.
+type: dataset
+title: "MacroFactor Foundation Example Database Hub"
+abstract: >-
+  A worked example of the MacroFactor Foundation living-database pattern: a
+  normalized corpus of (synthetic) resistance-training study data stored as
+  plain CSV tables in Git, with schema validation, an analysis pipeline, and a
+  static site. Spoke projects pin to immutable data tags.
+authors:
+  # TODO: replace with the named contributors (and ORCIDs) before any release.
+  - name: "MacroFactor Foundation"
+repository-code: "https://github.com/MacroFactor-Foundation/example_database_hub"
+url: "https://macrofactor-foundation.github.io/example_database_hub/"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - living database
+  - resistance training
+  - meta-analysis
+  - synthetic data
+# version, date-released and doi are added for each data release; none yet.

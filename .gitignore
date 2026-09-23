@@ -1,0 +1,43 @@
+# R and RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck/
+
+# renv: the lockfile, activate.R and settings.json are tracked; libraries are not
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# targets: disposable local computational cache
+_targets/
+_targets_r/
+
+# Pipeline scratch outputs
+outputs/
+
+# Quarto: rendered site and caches (site/_variables.yml and site/generated/ ARE tracked)
+site/_site/
+site/.quarto/
+.quarto/
+*_files/
+/.luarc.json
+
+# Local configuration and secrets
+.Renviron
+.env
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

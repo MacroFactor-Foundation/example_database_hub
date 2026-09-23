@@ -1,0 +1,39 @@
+# Release ledger: the authoritative record of every public, immutable version
+# of this hub (AGENTS.md "Scholarly stages, GitHub Releases, and Zenodo").
+#
+# This hub releases two kinds of object, each with its own tag scheme:
+#   - dataset snapshots  data-vMAJOR.MINOR.PATCH   what spokes pin to
+#       MAJOR  breaking schema change (column/table renamed, removed, redefined)
+#       MINOR  studies or columns added without breaking existing ones
+#       PATCH  corrections to existing values
+#   - site deployments   site-vMAJOR.MINOR.PATCH   triggers build-deploy-site.yml
+#
+# Rules: a new tag for every changed public object; never move, reuse,
+# force-update or delete a published tag. Use null for facts not yet known;
+# never invent identifiers.
+
+tag_schemes:
+  dataset_snapshot: "data-vMAJOR.MINOR.PATCH"
+  site_deployment: "site-vMAJOR.MINOR.PATCH"
+
+dataset_snapshots:
+  - tag: data-v1.0.0
+    status: planned # planned | released
+    commit: null
+    date: null
+    github_release_url: null
+    zenodo_record: null # only if the dataset is deposited as independently citable
+    doi: null
+    pinned_by: [] # spoke repositories pinned to this snapshot, e.g. {repo: ..., purpose: ...}
+    notes: >
+      First snapshot of the synthetic example data (50 studies). For
+      demonstrating spoke pinning only; not intended for a Zenodo deposit.
+
+site_deployments:
+  - tag: site-v1.0.0
+    status: planned
+    commit: null
+    date: null
+    data_snapshot: data-v1.0.0 # the data the site's results were built from
+    url: https://macrofactor-foundation.github.io/example_database_hub/
+    notes: First deployment of the example site on the default GitHub Pages domain.
