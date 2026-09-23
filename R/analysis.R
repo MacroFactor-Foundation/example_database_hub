@@ -113,13 +113,48 @@ fit_domain_models <- function(effect_sizes, domain, analysis) {
   if (dplyr::n_distinct(d$study_id) < analysis$min_studies_per_model) {
     stop("Too few studies for domain '", domain, "' (", dplyr::n_distinct(d$study_id), ").", call. = FALSE)
   }
-  random <- list(~ 1 | study_id / arm_id / es_id)
-  pooled <- metafor::rma.mv(yi, vi, random = random, data = d, method = "REML", test = "t")
-  moderated <- metafor::rma.mv(
-    yi, vi, mods = ~ load_category + sets_c, random = random,
-    data = d, method = "REML", test = "t"
-  )
+  pooled <- fit_multilevel(d)
+  moderated <- fit_multilevel(d, mods = ~ load_category + sets_c)
   list(domain = domain, data = d, pooled = pooled, moderated = moderated, sets_centre = analysis$sets_centre)
+}
+
+# Optimisers tried in order. nlminb (metafor's default) is used whenever it
+# converges; the fallbacks exist because REML surfaces with a variance
+# component near zero can make nlminb stop short on some platforms (seen on
+# the Linux CI runner but not on Windows, with identical data).
+RMA_OPTIMIZERS <- list(
+  nlminb = list(),
+  `optim-BFGS` = list(optimizer = "optim", optmethod = "BFGS"),
+  `optim-Nelder-Mead` = list(optimizer = "optim", optmethod = "Nelder-Mead", maxit = 10000)
+)
+
+# Multilevel random-effects model: effect sizes nested in arms nested in
+# studies (REML, t-tests). The optimiser that converged is stored in the
+# "optimizer" attribute.
+fit_multilevel <- function(d, mods = NULL) {
+  failures <- character()
+  for (name in names(RMA_OPTIMIZERS)) {
+    args <- list(
+      yi = d$yi, V = d$vi, random = list(~ 1 | study_id / arm_id / es_id),
+      data = d, method = "REML", test = "t", control = RMA_OPTIMIZERS[[name]]
+    )
+    if (!is.null(mods)) args$mods <- mods # rma.mv rejects an explicit mods = NULL
+    fit <- tryCatch(
+      do.call(metafor::rma.mv, args),
+      error = function(e) {
+        failures[[name]] <<- conditionMessage(e)
+        NULL
+      }
+    )
+    if (!is.null(fit)) {
+      attr(fit, "optimizer") <- name
+      return(fit)
+    }
+  }
+  stop("Multilevel model did not converge with any optimiser:
+",
+    paste0("  - ", names(failures), ": ", failures, collapse = "
+"), call. = FALSE)
 }
 
 summarise_pooled <- function(models) {
@@ -137,7 +172,8 @@ summarise_pooled <- function(models) {
       pi_ub = as.numeric(p$pi.ub),
       sigma2_study = m$pooled$sigma2[1],
       sigma2_arm = m$pooled$sigma2[2],
-      sigma2_es = m$pooled$sigma2[3]
+      sigma2_es = m$pooled$sigma2[3],
+      optimizer = attr(m$pooled, "optimizer")
     )
   }))
 }

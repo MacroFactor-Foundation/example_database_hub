@@ -35,6 +35,19 @@ test_that("domain models fit and summarise", {
   expect_true(pooled$ci_lb < pooled$estimate && pooled$estimate < pooled$ci_ub)
   expect_setequal(mods$term, c("Intercept", "Low vs. high load", "Per additional weekly set per exercise"))
   expect_error(fit_domain_models(es[0, ], "Strength", test_analysis_config), "Too few studies")
+  expect_true(pooled$optimizer %in% names(RMA_OPTIMIZERS))
+})
+
+test_that("model fitting falls back to other optimisers when nlminb fails", {
+  d <- dplyr::filter(es, .data$domain == "Strength", !.data$is_control)
+  default <- fit_multilevel(d)
+  local_optimizers <- RMA_OPTIMIZERS
+  # Force the first optimiser to fail, as nlminb did on the Linux runner.
+  RMA_OPTIMIZERS[["nlminb"]] <<- list(iter.max = 1, eval.max = 1)
+  on.exit(RMA_OPTIMIZERS <<- local_optimizers, add = TRUE)
+  fallback <- fit_multilevel(d)
+  expect_equal(attr(fallback, "optimizer"), "optim-BFGS")
+  expect_equal(as.numeric(fallback$beta), as.numeric(default$beta), tolerance = 1e-3)
 })
 
 test_that("figures and site files are written with brand fonts and warnings", {
