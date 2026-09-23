@@ -1,0 +1,193 @@
+measure_id,study_id,domain,measurement,device,device_value,muscle_assessed,muscle_region,implement,pattern,contraction_type,rm_value,measurement_units
+ishikawa2012a_m01,ishikawa2012a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+ishikawa2012a_m02,ishikawa2012a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+ishikawa2012a_m03,ishikawa2012a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+ishikawa2012a_m04,ishikawa2012a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+ishikawa2012a_m05,ishikawa2012a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+ishikawa2012a_m06,ishikawa2012a,Circumference,Mid-Thigh Circumference,Tape Measure,Circumference,"RF,VL,VI,VM",Middle,,,,,cm
+zielinski2018a_m01,zielinski2018a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+zielinski2018a_m02,zielinski2018a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+zielinski2018a_m03,zielinski2018a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+zielinski2018a_m04,zielinski2018a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+zielinski2018a_m05,zielinski2018a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+lindqvist2026a_m01,lindqvist2026a,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+lindqvist2026a_m02,lindqvist2026a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+lindqvist2026a_m03,lindqvist2026a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+lindqvist2026a_m04,lindqvist2026a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+jovanovic2026a_m01,jovanovic2026a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+jovanovic2026a_m02,jovanovic2026a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+ekberg2013a_m01,ekberg2013a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+ekberg2013a_m02,ekberg2013a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+iversen2023a_m01,iversen2023a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+iversen2023a_m02,iversen2023a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+iversen2023a_m03,iversen2023a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+iversen2023a_m04,iversen2023a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+iversen2023a_m05,iversen2023a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+castellano2013a_m01,castellano2013a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+castellano2013a_m02,castellano2013a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+castellano2013a_m03,castellano2013a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+castellano2013a_m04,castellano2013a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+castellano2013a_m05,castellano2013a,Circumference,Mid-Thigh Circumference,Tape Measure,Circumference,"RF,VL,VI,VM",Middle,,,,,cm
+oduya2021a_m01,oduya2021a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+oduya2021a_m02,oduya2021a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+oduya2021a_m03,oduya2021a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+oduya2021a_m04,oduya2021a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+oduya2021a_m05,oduya2021a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+oduya2021a_m06,oduya2021a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+oduya2021a_m07,oduya2021a,Absolute Muscular Endurance,Flat Barbell Press Repetitions at a Fixed Load,,,,,Barbell,Bench Press,Isotonic,,repetitions
+abernathy2017a_m01,abernathy2017a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+abernathy2017a_m02,abernathy2017a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+duarte2015a_m01,duarte2015a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+duarte2015a_m02,duarte2015a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+duarte2015a_m03,duarte2015a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+delacroix2022a_m01,delacroix2022a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+delacroix2022a_m02,delacroix2022a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+delacroix2022a_m03,delacroix2022a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+uribe2020a_m01,uribe2020a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+uribe2020a_m02,uribe2020a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+uribe2020a_m03,uribe2020a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+uribe2020a_m04,uribe2020a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+uribe2020a_m05,uribe2020a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+uribe2020a_m06,uribe2020a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+hartley2008a_m01,hartley2008a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+hartley2008a_m02,hartley2008a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+hartley2008a_m03,hartley2008a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+hartley2008a_m04,hartley2008a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+hartley2008a_m05,hartley2008a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+takeda2020a_m01,takeda2020a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+takeda2020a_m02,takeda2020a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+takeda2020a_m03,takeda2020a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+ishikawa2013a_m01,ishikawa2013a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+ishikawa2013a_m02,ishikawa2013a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+ishikawa2013a_m03,ishikawa2013a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+takeda2012a_m01,takeda2012a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+takeda2012a_m02,takeda2012a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+delacroix2015a_m01,delacroix2015a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+delacroix2015a_m02,delacroix2015a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+delacroix2015a_m03,delacroix2015a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+varga2020a_m01,varga2020a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+varga2020a_m02,varga2020a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+varga2020a_m03,varga2020a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+varga2020a_m04,varga2020a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+delacroix2021a_m01,delacroix2021a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+delacroix2021a_m02,delacroix2021a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+uribe2005a_m01,uribe2005a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+uribe2005a_m02,uribe2005a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+uribe2005a_m03,uribe2005a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+uribe2005a_m04,uribe2005a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+uribe2005a_m05,uribe2005a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+takeda2007a_m01,takeda2007a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+takeda2007a_m02,takeda2007a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+takeda2007a_m03,takeda2007a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+takeda2007a_m04,takeda2007a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+haugen2001a_m01,haugen2001a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+haugen2001a_m02,haugen2001a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+haugen2001a_m03,haugen2001a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+haugen2001a_m04,haugen2001a,Circumference,Mid-Thigh Circumference,Tape Measure,Circumference,"RF,VL,VI,VM",Middle,,,,,cm
+haugen2001b_m01,haugen2001b,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+haugen2001b_m02,haugen2001b,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+haugen2001b_m03,haugen2001b,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+haugen2001b_m04,haugen2001b,Absolute Muscular Endurance,Flat Barbell Press Repetitions at a Fixed Load,,,,,Barbell,Bench Press,Isotonic,,repetitions
+yilmaz2005a_m01,yilmaz2005a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+yilmaz2005a_m02,yilmaz2005a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+yilmaz2005a_m03,yilmaz2005a,Circumference,Mid-Thigh Circumference,Tape Measure,Circumference,"RF,VL,VI,VM",Middle,,,,,cm
+ekberg2024a_m01,ekberg2024a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+ekberg2024a_m02,ekberg2024a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+ekberg2024a_m03,ekberg2024a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+petrakis2007a_m01,petrakis2007a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+petrakis2007a_m02,petrakis2007a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+petrakis2007a_m03,petrakis2007a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+petrakis2007a_m04,petrakis2007a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+ekberg2010a_m01,ekberg2010a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+ekberg2010a_m02,ekberg2010a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+ekberg2010a_m03,ekberg2010a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+laurent2024a_m01,laurent2024a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+laurent2024a_m02,laurent2024a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+laurent2024a_m03,laurent2024a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+laurent2024a_m04,laurent2024a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+yilmaz1999a_m01,yilmaz1999a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+yilmaz1999a_m02,yilmaz1999a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+yilmaz1999a_m03,yilmaz1999a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+yilmaz1999a_m04,yilmaz1999a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+yilmaz1999a_m05,yilmaz1999a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+rosales2018a_m01,rosales2018a,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+rosales2018a_m02,rosales2018a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+rosales2018a_m03,rosales2018a,Hypertrophy,Medial Gastrocnemius Thickness,B-mode US,Muscle Thickness,GMH,Proximal,,,,,mm
+rosales2018a_m04,rosales2018a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+rosales2018a_m05,rosales2018a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+rosales2018a_m06,rosales2018a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+lindqvist2010a_m01,lindqvist2010a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+lindqvist2010a_m02,lindqvist2010a,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+lindqvist2010a_m03,lindqvist2010a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+lindqvist2010a_m04,lindqvist2010a,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+lindqvist2010a_m05,lindqvist2010a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+lindqvist2010a_m06,lindqvist2010a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+quinlan2011a_m01,quinlan2011a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+quinlan2011a_m02,quinlan2011a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+quinlan2011a_m03,quinlan2011a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+quinlan2011a_m04,quinlan2011a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+quinlan2011a_m05,quinlan2011a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+quinlan2011a_m06,quinlan2011a,Circumference,Mid-Thigh Circumference,Tape Measure,Circumference,"RF,VL,VI,VM",Middle,,,,,cm
+delacroix2018a_m01,delacroix2018a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+delacroix2018a_m02,delacroix2018a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+delacroix2018a_m03,delacroix2018a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+delacroix2018a_m04,delacroix2018a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+moreau2010a_m01,moreau2010a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+moreau2010a_m02,moreau2010a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+jansen2011a_m01,jansen2011a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+jansen2011a_m02,jansen2011a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+varga2015a_m01,varga2015a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+varga2015a_m02,varga2015a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+varga2015a_m03,varga2015a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+varga2015a_m04,varga2015a,Circumference,Mid-Thigh Circumference,Tape Measure,Circumference,"RF,VL,VI,VM",Middle,,,,,cm
+fairbanks2004a_m01,fairbanks2004a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+fairbanks2004a_m02,fairbanks2004a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+fairbanks2004a_m03,fairbanks2004a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+fairbanks2004a_m04,fairbanks2004a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+fairbanks2004a_m05,fairbanks2004a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+fairbanks2004a_m06,fairbanks2004a,Absolute Muscular Endurance,Leg Extension Repetitions at a Fixed Load,,,,,Machine,Knee Extension,Isotonic,,repetitions
+jansen2021a_m01,jansen2021a,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+jansen2021a_m02,jansen2021a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+gallardo2024a_m01,gallardo2024a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+gallardo2024a_m02,gallardo2024a,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+gallardo2024a_m03,gallardo2024a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+gallardo2024a_m04,gallardo2024a,Strength,Barbell Biceps Curl 1RM,,,,,Barbell,Elbow Flexion,Isotonic,1,kg
+mwangi2026a_m01,mwangi2026a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+mwangi2026a_m02,mwangi2026a,Strength,Leg Press 1RM,,,,,Machine,Leg Press,Isotonic,1,kg
+petrakis2016a_m01,petrakis2016a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+petrakis2016a_m02,petrakis2016a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+petrakis2016a_m03,petrakis2016a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+petrakis2016a_m04,petrakis2016a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+petrakis2016a_m05,petrakis2016a,Absolute Muscular Endurance,Flat Barbell Press Repetitions at a Fixed Load,,,,,Barbell,Bench Press,Isotonic,,repetitions
+ekberg2013b_m01,ekberg2013b,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+ekberg2013b_m02,ekberg2013b,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+ekberg2013b_m03,ekberg2013b,Hypertrophy,Elbow Flexor Thickness,B-mode US,Muscle Thickness,"BBLH,BBSH,BRA",Middle,,,,,mm
+ekberg2013b_m04,ekberg2013b,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+brennan2019a_m01,brennan2019a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+brennan2019a_m02,brennan2019a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+brennan2019a_m03,brennan2019a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+brennan2019a_m04,brennan2019a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+brennan2019a_m05,brennan2019a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+haugen2014a_m01,haugen2014a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+haugen2014a_m02,haugen2014a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+petrakis2018a_m01,petrakis2018a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+petrakis2018a_m02,petrakis2018a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+petrakis2018a_m03,petrakis2018a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+petrakis2018a_m04,petrakis2018a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+delacroix2014a_m01,delacroix2014a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+delacroix2014a_m02,delacroix2014a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+delacroix2014a_m03,delacroix2014a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+rahimi2020a_m01,rahimi2020a,Strength,Knee Extension Isokinetic Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isokinetic,,N·m
+rahimi2020a_m02,rahimi2020a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+rahimi2020a_m03,rahimi2020a,Strength,Flat Barbell Press 1RM,,,,,Barbell,Bench Press,Isotonic,1,kg
+rahimi2020a_m04,rahimi2020a,Hypertrophy,Elbow Extensor Thickness,B-mode US,Muscle Thickness,"TBLH,TBLAT,TBMED",Middle,,,,,mm
+kaur2025a_m01,kaur2025a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+kaur2025a_m02,kaur2025a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
+kaur2025a_m03,kaur2025a,Hypertrophy,Vastus Lateralis Type II Fiber Area,Muscle Biopsy,Type II Muscle Fiber Cross-Sectional Area,VL,,,,,,micrometers squared
+yilmaz2003a_m01,yilmaz2003a,Strength,Parallel Back Squat 1RM,,,,,Barbell,Back Squat,Isotonic,1,kg
+yilmaz2003a_m02,yilmaz2003a,Hypertrophy,Pectoralis Major Thickness,B-mode US,Muscle Thickness,PM,Middle,,,,,mm
+yilmaz2003a_m03,yilmaz2003a,Hypertrophy,Quadriceps Femoris Thickness,B-mode US,Muscle Thickness,"RF,VI",Middle,,,,,mm
+yilmaz2003a_m04,yilmaz2003a,Body Composition,Whole-Body Lean Mass,DXA,Lean Mass,,,,,,,kg
+yilmaz2003a_m05,yilmaz2003a,Body Composition,Whole-Body Fat Mass,DXA,Fat Mass,,,,,,,kg
+abernathy2011a_m01,abernathy2011a,Hypertrophy,Vastus Lateralis Cross-Sectional Area,MRI,Muscle Cross-Sectional Area,VL,Middle,,,,,cm²
+abernathy2011a_m02,abernathy2011a,Strength,Knee Extension Isometric Peak Torque,,,,,Isokinetic Dynamometer,Knee Extension,Isometric,,N·m
