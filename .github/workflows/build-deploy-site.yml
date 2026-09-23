@@ -1,0 +1,67 @@
+# Render the Quarto site from committed files and deploy it to GitHub Pages.
+#
+# The site renders from page sources plus the committed pipeline interface
+# (site/_variables.yml, site/generated/), so this job needs only Quarto: no R,
+# no data, no _targets/.
+#
+# - Pull requests touching site/: render only, as a check.
+# - A pushed tag site-vX.Y.Z (recorded in config/releases.yml): render and deploy.
+# - Manual run (workflow_dispatch): render and deploy the chosen ref.
+#
+# Deployment needs GitHub Pages enabled with "Source: GitHub Actions"
+# (repository Settings > Pages). This is a manual step; the workflow does not
+# change repository settings.
+
+name: Build and deploy site
+
+on:
+  pull_request:
+    paths:
+      - "site/**"
+      - ".github/workflows/build-deploy-site.yml"
+  push:
+    tags: ["site-v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  QUARTO_VERSION: 1.9.38
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: ${{ env.QUARTO_VERSION }}
+
+      - name: Render site
+        run: quarto render site
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/_site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

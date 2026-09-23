@@ -1,0 +1,57 @@
+---
+title: "Example Database Hub"
+subtitle: "A worked example of the MacroFactor Foundation living-database pattern"
+toc: false
+---
+
+::: {.mf-notice}
+Synthetic data
+
+Every study, author, DOI and value in this hub is **invented**. The data reproduce the *structure* of a real resistance-training extraction corpus so that the workflow can be demonstrated end to end. Nothing here is evidence about training.
+:::
+
+This site is built from the hub repository's own data. The hub is a corpus of data extracted from training studies, stored as plain CSV tables in Git. It is the single source that separate analysis projects (*spokes*) read from, each pinned to a fixed commit or tag. This hub also answers its own primary questions: the analyses and plots here are produced by the repository's `targets` pipeline from the data at the commit the site was built from.
+
+::: {.mf-stats}
+::: {.mf-stat}
+[{{< var counts.studies >}}]{.mf-stat-value}
+[studies, {{< var counts.year_min >}}–{{< var counts.year_max >}}]{.mf-stat-label}
+:::
+::: {.mf-stat}
+[{{< var counts.arms >}}]{.mf-stat-value}
+[study arms]{.mf-stat-label}
+:::
+::: {.mf-stat}
+[{{< var counts.participants >}}]{.mf-stat-value}
+[participants]{.mf-stat-label}
+:::
+::: {.mf-stat}
+[{{< var counts.measures >}}]{.mf-stat-value}
+[outcome measures]{.mf-stat-label}
+:::
+::: {.mf-stat}
+[{{< var counts.effect_sizes >}}]{.mf-stat-value}
+[effect sizes (training arms)]{.mf-stat-label}
+:::
+::: {.mf-stat}
+[{{< var counts.training_sets >}}]{.mf-stat-value}
+[prescribed training sets]{.mf-stat-label}
+:::
+:::
+
+## Start here
+
+::: {.mf-links}
+- [Explore the data](explore.qmd)
+  Switch between plots of effect sizes, the study corpus and the participants.
+- [Example analyses](analyses.qmd)
+  Pooled pre–post changes and meta-regressions on load and weekly sets.
+- [Tables and data dictionary](data.qmd)
+  What each table holds, how they join, and every column's rules.
+- [Use this hub](using.qmd)
+  Pin a spoke project to a fixed version, or contribute new data.
+:::
+
+## What is in the hub
+
+{{< include generated/tables/table-counts.md >}}

@@ -1,0 +1,63 @@
+---
+title: "Example analyses"
+subtitle: "Pre–post change in hypertrophy and strength, and the roles of load and weekly sets"
+---
+
+::: {.mf-notice}
+Illustration only
+
+These analyses run on synthetic data. They show how the hub's own pipeline turns the tables into results; they are not findings.
+:::
+
+## Methods
+
+**Effect sizes.** For every training arm × outcome measure with baseline and post-intervention summary statistics, we computed the standardized mean change: the post minus baseline mean, divided by the baseline SD, with a small-sample correction (metafor's `SMCR`). SDs were derived from SEs where only SEs were reported. The sampling variance requires the pre–post correlation, which studies rarely report, so we assumed *r* = {{< var analysis.pre_post_r >}}.
+
+**Moderators.** Moderators were derived from the set-level training table over the intervention weeks:
+
+- **Weekly sets per exercise:** total prescribed sets divided by intervention weeks and by the number of distinct exercises.
+- **Load:** each set was classified as high load if its prescribed midpoint was at least {{< var analysis.high_load_min_pct_1rm >}}% 1RM, or a repetition-maximum target of at most {{< var analysis.high_load_max_rm >}}RM. An arm was classed as high load when most of its sets were.
+
+**Models.** Separately for each domain, a multilevel random-effects model with effect sizes nested in arms nested in studies (REML, *t*-tests), and a meta-regression adding load category and weekly sets per exercise (centred at {{< var analysis.sets_centre >}}).
+
+## Pooled change
+
+![Pooled standardized mean change by domain, shown over the individual effect sizes.](generated/figures/pooled-by-domain.svg){.mf-inline-svg fig-alt="Pooled standardized mean change for hypertrophy and strength with 95% confidence and prediction intervals, over the individual effect sizes."}
+
+{{< include generated/tables/pooled.md >}}
+
+## Hypertrophy
+
+Across {{< var results.hypertrophy.studies >}} studies ({{< var results.hypertrophy.k >}} effect sizes from {{< var results.hypertrophy.arms >}} arms), the pooled change was *g* = {{< var results.hypertrophy.g_ci >}}, with a 95% prediction interval of {{< var results.hypertrophy.pi >}}.
+
+- **Load:** the low- vs. high-load difference was {{< var results.hypertrophy.load_diff >}} (*p* {{< var results.hypertrophy.load_p >}}).
+- **Weekly sets:** each additional weekly set per exercise changed *g* by {{< var results.hypertrophy.sets_slope >}} (*p* {{< var results.hypertrophy.sets_p >}}).
+
+::: {layout-ncol="2"}
+![Hypertrophy effects by load category.](generated/figures/load-hypertrophy.svg){.mf-inline-svg fig-alt="Hypertrophy effect sizes for high- and low-load arms with model-implied means."}
+
+![Hypertrophy effects against weekly sets per exercise.](generated/figures/sets-hypertrophy.svg){.mf-inline-svg fig-alt="Hypertrophy effect sizes against weekly sets per exercise with meta-regression lines by load."}
+:::
+
+## Strength
+
+Across {{< var results.strength.studies >}} studies ({{< var results.strength.k >}} effect sizes from {{< var results.strength.arms >}} arms), the pooled change was *g* = {{< var results.strength.g_ci >}}, with a 95% prediction interval of {{< var results.strength.pi >}}.
+
+- **Load:** the low- vs. high-load difference was {{< var results.strength.load_diff >}} (*p* {{< var results.strength.load_p >}}).
+- **Weekly sets:** each additional weekly set per exercise changed *g* by {{< var results.strength.sets_slope >}} (*p* {{< var results.strength.sets_p >}}).
+
+::: {layout-ncol="2"}
+![Strength effects by load category.](generated/figures/load-strength.svg){.mf-inline-svg fig-alt="Strength effect sizes for high- and low-load arms with model-implied means."}
+
+![Strength effects against weekly sets per exercise.](generated/figures/sets-strength.svg){.mf-inline-svg fig-alt="Strength effect sizes against weekly sets per exercise with meta-regression lines by load."}
+:::
+
+## Meta-regression coefficients
+
+{{< include generated/tables/moderators.md >}}
+
+## Limitations of the example
+
+- The data are synthetic; the "effects" were built into the generator and the models simply recover them.
+- The pre–post correlation is assumed, not observed. Changing `analysis.pre_post_r` in `config/project.yml` reruns everything that depends on it.
+- Weekly sets are counted per exercise, not per muscle group, and the load rule is a deliberately simple two-category split.

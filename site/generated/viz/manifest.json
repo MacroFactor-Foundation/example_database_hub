@@ -1,0 +1,245 @@
+{
+  "generated_by": "_targets.R (viz_manifest). Do not edit by hand.",
+  "views": [
+    {
+      "view": "effect_distribution",
+      "label": "Distribution of effects",
+      "group": "Effect sizes",
+      "description": "Histogram of pre-post standardized mean changes.",
+      "domains": ["All domains", "Strength", "Hypertrophy", "Body Composition", "Absolute Muscular Endurance", "Circumference"]
+    },
+    {
+      "view": "effect_vs_sets",
+      "label": "Effects vs. weekly sets",
+      "group": "Effect sizes",
+      "description": "Effect size against weekly sets per exercise.",
+      "domains": ["All domains", "Strength", "Hypertrophy", "Body Composition", "Absolute Muscular Endurance", "Circumference"]
+    },
+    {
+      "view": "effect_vs_weeks",
+      "label": "Effects vs. duration",
+      "group": "Effect sizes",
+      "description": "Effect size against intervention length.",
+      "domains": ["All domains", "Strength", "Hypertrophy", "Body Composition", "Absolute Muscular Endurance", "Circumference"]
+    },
+    {
+      "view": "effect_by_status",
+      "label": "Effects by training status",
+      "group": "Effect sizes",
+      "description": "Effect sizes in untrained vs. trained samples.",
+      "domains": ["All domains", "Strength", "Hypertrophy", "Body Composition", "Absolute Muscular Endurance", "Circumference"]
+    },
+    {
+      "view": "studies_by_year",
+      "label": "Studies by year",
+      "group": "Database",
+      "description": "Number of studies by publication year.",
+      "domains": ["All domains"]
+    },
+    {
+      "view": "measures_by_domain",
+      "label": "Outcomes by domain",
+      "group": "Database",
+      "description": "Number of outcome measures and effect sizes by domain.",
+      "domains": ["All domains"]
+    },
+    {
+      "view": "sample_characteristics",
+      "label": "Sample characteristics",
+      "group": "Participants",
+      "description": "Arm-level participant characteristics.",
+      "domains": ["All domains"]
+    }
+  ],
+  "plots": [
+    {
+      "id": "effect_distribution--all-domains",
+      "view": "effect_distribution",
+      "domain": "All domains",
+      "file": "effect_distribution--all-domains.svg",
+      "alt": "Histogram of pre-post standardized mean changes. (All domains, 438 effect sizes)"
+    },
+    {
+      "id": "effect_distribution--strength",
+      "view": "effect_distribution",
+      "domain": "Strength",
+      "file": "effect_distribution--strength.svg",
+      "alt": "Histogram of pre-post standardized mean changes. (Strength, 136 effect sizes)"
+    },
+    {
+      "id": "effect_distribution--hypertrophy",
+      "view": "effect_distribution",
+      "domain": "Hypertrophy",
+      "file": "effect_distribution--hypertrophy.svg",
+      "alt": "Histogram of pre-post standardized mean changes. (Hypertrophy, 199 effect sizes)"
+    },
+    {
+      "id": "effect_distribution--body-composition",
+      "view": "effect_distribution",
+      "domain": "Body Composition",
+      "file": "effect_distribution--body-composition.svg",
+      "alt": "Histogram of pre-post standardized mean changes. (Body Composition, 62 effect sizes)"
+    },
+    {
+      "id": "effect_distribution--absolute-muscular-endurance",
+      "view": "effect_distribution",
+      "domain": "Absolute Muscular Endurance",
+      "file": "effect_distribution--absolute-muscular-endurance.svg",
+      "alt": "Histogram of pre-post standardized mean changes. (Absolute Muscular Endurance, 28 effect sizes)"
+    },
+    {
+      "id": "effect_distribution--circumference",
+      "view": "effect_distribution",
+      "domain": "Circumference",
+      "file": "effect_distribution--circumference.svg",
+      "alt": "Histogram of pre-post standardized mean changes. (Circumference, 13 effect sizes)"
+    },
+    {
+      "id": "effect_vs_sets--all-domains",
+      "view": "effect_vs_sets",
+      "domain": "All domains",
+      "file": "effect_vs_sets--all-domains.svg",
+      "alt": "Effect size against weekly sets per exercise. (All domains, 438 effect sizes)"
+    },
+    {
+      "id": "effect_vs_sets--strength",
+      "view": "effect_vs_sets",
+      "domain": "Strength",
+      "file": "effect_vs_sets--strength.svg",
+      "alt": "Effect size against weekly sets per exercise. (Strength, 136 effect sizes)"
+    },
+    {
+      "id": "effect_vs_sets--hypertrophy",
+      "view": "effect_vs_sets",
+      "domain": "Hypertrophy",
+      "file": "effect_vs_sets--hypertrophy.svg",
+      "alt": "Effect size against weekly sets per exercise. (Hypertrophy, 199 effect sizes)"
+    },
+    {
+      "id": "effect_vs_sets--body-composition",
+      "view": "effect_vs_sets",
+      "domain": "Body Composition",
+      "file": "effect_vs_sets--body-composition.svg",
+      "alt": "Effect size against weekly sets per exercise. (Body Composition, 62 effect sizes)"
+    },
+    {
+      "id": "effect_vs_sets--absolute-muscular-endurance",
+      "view": "effect_vs_sets",
+      "domain": "Absolute Muscular Endurance",
+      "file": "effect_vs_sets--absolute-muscular-endurance.svg",
+      "alt": "Effect size against weekly sets per exercise. (Absolute Muscular Endurance, 28 effect sizes)"
+    },
+    {
+      "id": "effect_vs_sets--circumference",
+      "view": "effect_vs_sets",
+      "domain": "Circumference",
+      "file": "effect_vs_sets--circumference.svg",
+      "alt": "Effect size against weekly sets per exercise. (Circumference, 13 effect sizes)"
+    },
+    {
+      "id": "effect_vs_weeks--all-domains",
+      "view": "effect_vs_weeks",
+      "domain": "All domains",
+      "file": "effect_vs_weeks--all-domains.svg",
+      "alt": "Effect size against intervention length. (All domains, 438 effect sizes)"
+    },
+    {
+      "id": "effect_vs_weeks--strength",
+      "view": "effect_vs_weeks",
+      "domain": "Strength",
+      "file": "effect_vs_weeks--strength.svg",
+      "alt": "Effect size against intervention length. (Strength, 136 effect sizes)"
+    },
+    {
+      "id": "effect_vs_weeks--hypertrophy",
+      "view": "effect_vs_weeks",
+      "domain": "Hypertrophy",
+      "file": "effect_vs_weeks--hypertrophy.svg",
+      "alt": "Effect size against intervention length. (Hypertrophy, 199 effect sizes)"
+    },
+    {
+      "id": "effect_vs_weeks--body-composition",
+      "view": "effect_vs_weeks",
+      "domain": "Body Composition",
+      "file": "effect_vs_weeks--body-composition.svg",
+      "alt": "Effect size against intervention length. (Body Composition, 62 effect sizes)"
+    },
+    {
+      "id": "effect_vs_weeks--absolute-muscular-endurance",
+      "view": "effect_vs_weeks",
+      "domain": "Absolute Muscular Endurance",
+      "file": "effect_vs_weeks--absolute-muscular-endurance.svg",
+      "alt": "Effect size against intervention length. (Absolute Muscular Endurance, 28 effect sizes)"
+    },
+    {
+      "id": "effect_vs_weeks--circumference",
+      "view": "effect_vs_weeks",
+      "domain": "Circumference",
+      "file": "effect_vs_weeks--circumference.svg",
+      "alt": "Effect size against intervention length. (Circumference, 13 effect sizes)"
+    },
+    {
+      "id": "effect_by_status--all-domains",
+      "view": "effect_by_status",
+      "domain": "All domains",
+      "file": "effect_by_status--all-domains.svg",
+      "alt": "Effect sizes in untrained vs. trained samples. (All domains, 438 effect sizes)"
+    },
+    {
+      "id": "effect_by_status--strength",
+      "view": "effect_by_status",
+      "domain": "Strength",
+      "file": "effect_by_status--strength.svg",
+      "alt": "Effect sizes in untrained vs. trained samples. (Strength, 136 effect sizes)"
+    },
+    {
+      "id": "effect_by_status--hypertrophy",
+      "view": "effect_by_status",
+      "domain": "Hypertrophy",
+      "file": "effect_by_status--hypertrophy.svg",
+      "alt": "Effect sizes in untrained vs. trained samples. (Hypertrophy, 199 effect sizes)"
+    },
+    {
+      "id": "effect_by_status--body-composition",
+      "view": "effect_by_status",
+      "domain": "Body Composition",
+      "file": "effect_by_status--body-composition.svg",
+      "alt": "Effect sizes in untrained vs. trained samples. (Body Composition, 62 effect sizes)"
+    },
+    {
+      "id": "effect_by_status--absolute-muscular-endurance",
+      "view": "effect_by_status",
+      "domain": "Absolute Muscular Endurance",
+      "file": "effect_by_status--absolute-muscular-endurance.svg",
+      "alt": "Effect sizes in untrained vs. trained samples. (Absolute Muscular Endurance, 28 effect sizes)"
+    },
+    {
+      "id": "effect_by_status--circumference",
+      "view": "effect_by_status",
+      "domain": "Circumference",
+      "file": "effect_by_status--circumference.svg",
+      "alt": "Effect sizes in untrained vs. trained samples. (Circumference, 13 effect sizes)"
+    },
+    {
+      "id": "studies_by_year--all-domains",
+      "view": "studies_by_year",
+      "domain": "All domains",
+      "file": "studies_by_year--all-domains.svg",
+      "alt": "Number of studies by publication year."
+    },
+    {
+      "id": "measures_by_domain--all-domains",
+      "view": "measures_by_domain",
+      "domain": "All domains",
+      "file": "measures_by_domain--all-domains.svg",
+      "alt": "Number of outcome measures and effect sizes by domain."
+    },
+    {
+      "id": "sample_characteristics--all-domains",
+      "view": "sample_characteristics",
+      "domain": "All domains",
+      "file": "sample_characteristics--all-domains.svg",
+      "alt": "Arm-level participant characteristics."
+    }
+  ]
+}
