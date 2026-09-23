@@ -79,6 +79,23 @@ Data tags follow `data-vMAJOR.MINOR.PATCH`:
 Site deployments are tagged `site-vMAJOR.MINOR.PATCH`. All tags are recorded in
 [`config/releases.yml`](config/releases.yml) and are never moved or reused.
 
+## Releasing a data snapshot
+
+A data release is what spokes pin to. Following AGENTS.md's release checklist:
+
+1. **Prepare** in a pull request: bump `version` and `date-released` in `CITATION.cff`, and
+   set the entry in `config/releases.yml` to `status: candidate`. Merge once
+   **Validate data** passes.
+2. **Tag** the merge commit with an annotated tag, e.g. `git tag -a data-v1.0.0 -m "…"`, and
+   push it. Never move or reuse a tag.
+3. **Build the assets** from a clean checkout of the tag:
+   `Rscript scripts/build_release_assets.R data-v1.0.0`. This writes the data bundle,
+   `SHA256SUMS` and `release-manifest.json` to `outputs/release/data-v1.0.0/`.
+4. **Draft the GitHub release** for the tag, attach those three files, and review the draft.
+   Publishing is irreversible; publish only when the draft is complete.
+5. **Record it** in a follow-up pull request: in `config/releases.yml`, add the commit, the
+   release URL and `status: released`.
+
 ## Contributing data
 
 1. Branch from `main` and add or correct rows in the CSVs. Assign new IDs; never renumber

@@ -16,18 +16,28 @@ tag_schemes:
   dataset_snapshot: "data-vMAJOR.MINOR.PATCH"
   site_deployment: "site-vMAJOR.MINOR.PATCH"
 
+# Status: planned -> candidate (release-prep merged; the tag points at that
+# merge commit) -> released (GitHub release published). The commit SHA and
+# release URL can only be recorded after tagging, in a follow-up commit; the
+# ledger inside a tagged snapshot therefore shows it as a candidate.
+
 dataset_snapshots:
   - tag: data-v1.0.0
-    status: planned # planned | released
-    commit: null
-    date: null
+    status: candidate # planned | candidate | released
+    commit: null # the release-prep merge commit; recorded after tagging
+    date: 2026-09-23
     github_release_url: null
     zenodo_record: null # only if the dataset is deposited as independently citable
     doi: null
+    contents: >
+      50 studies, 130 arms, 192 measures, 1,183 outcome rows, 179 contrasts,
+      31 reliability statistics and 34,312 prescribed training sets, under
+      schema_version 1 (config/schema.yml).
+    assets: [example_database_hub-data-v1.0.0-data.zip, SHA256SUMS, release-manifest.json]
     pinned_by: [] # spoke repositories pinned to this snapshot, e.g. {repo: ..., purpose: ...}
     notes: >
-      First snapshot of the synthetic example data (50 studies). For
-      demonstrating spoke pinning only; not intended for a Zenodo deposit.
+      First snapshot of the synthetic example data. For demonstrating spoke
+      pinning only; not intended for a Zenodo deposit.
 
 site_deployments:
   - tag: site-v1.0.0
