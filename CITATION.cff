@@ -11,8 +11,17 @@ abstract: >-
   plain CSV tables in Git, with schema validation, an analysis pipeline, and a
   static site. Spoke projects pin to immutable data tags.
 authors:
-  # TODO: replace with the named contributors (and ORCIDs) before any release.
-  - name: "MacroFactor Foundation"
+  # Add ORCIDs as `orcid: "https://orcid.org/0000-0000-0000-0000"` when known.
+  - given-names: James
+    family-names: Steele
+  - given-names: Zac
+    family-names: Robinson
+  - given-names: Josh
+    family-names: Pelland
+  - given-names: Greg
+    family-names: Nuckols
+version: "data-v1.0.0"
+date-released: "2026-09-23"
 repository-code: "https://github.com/MacroFactor-Foundation/example_database_hub"
 url: "https://macrofactor-foundation.github.io/example_database_hub/"
 license:
@@ -23,4 +32,5 @@ keywords:
   - resistance training
   - meta-analysis
   - synthetic data
-# version, date-released and doi are added for each data release; none yet.
+# version and date-released are updated before each data release is tagged.
+# No DOI: this synthetic example is not deposited on Zenodo.
