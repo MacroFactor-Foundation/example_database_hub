@@ -51,10 +51,18 @@ jobs:
           r-version: renv # the R version recorded in renv.lock
           use-public-rspm: true
 
-      - name: Install system libraries for graphics packages
+      # System libraries the R packages in renv.lock link against. Binaries
+      # from Posit Package Manager still need these at load time; renv lists
+      # any that are missing at the start of `renv::restore()`.
+      #   libglpk-dev: igraph (targets)   libxml2-dev: xml2 (tests)
+      #   libx11-dev: clipr               cmake: fs (source builds)
+      #   fontconfig/freetype/harfbuzz/fribidi/png: systemfonts, textshaping, svglite
+      - name: Install system libraries
         run: |
           sudo apt-get update
-          sudo apt-get install -y libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libpng-dev
+          sudo apt-get install -y \
+            libglpk-dev libxml2-dev libx11-dev cmake \
+            libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libpng-dev
 
       - uses: r-lib/actions/setup-renv@v2
 

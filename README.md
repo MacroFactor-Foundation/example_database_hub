@@ -95,6 +95,8 @@ Site deployments are tagged `site-vMAJOR.MINOR.PATCH`. All tags are recorded in
 - R 4.6.1 (recorded in `renv.lock`).
 - Quarto ≥ 1.9 (CI pins 1.9.38).
 - Git.
+- On Linux, the system libraries listed in `.github/workflows/validate-data.yml` (e.g.
+  `libglpk-dev` for igraph); `renv::restore()` reports any that are missing.
 - On Windows, [Rtools](https://cran.r-project.org/bin/windows/Rtools/) matching your R version,
   for the occasional package that has no pre-built binary.
 - Optional: the [DM Sans](https://fonts.google.com/specimen/DM+Sans) font installed locally,
